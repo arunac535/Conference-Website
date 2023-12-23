@@ -4,7 +4,7 @@
 }
 
 :root {
-    --heights : 50vh;
+    --heights : 90vh;
     --widths: 100%;
 }
 
@@ -39,6 +39,7 @@
 
 .slide-title{
     width:80%;
+    height:200px;
     color:white;
     font-size: 30px;
     position:absolute;
@@ -52,11 +53,13 @@
 .slide-sub-title{
     width:80%;
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     position:relative;
     text-align:center;
     left: 10%;
-    top:65%;
+    top:55%;
+    z-index: 15;
+    margin-bottom: 10px;
 }
 
 .slide-text{
