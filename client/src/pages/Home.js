@@ -6,6 +6,7 @@ import ActivitiesTimeline from '../components/ActivitiesTimeline';
 import Footer from '../components/Footer';
 import Tracks from '../components/Tracks';  
 import CarouselWithContent from '../components/CarouselWithText';
+import Counter from "../components/Counter/counter-logic";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <Main />
             <Tracks />
             <ActivitiesTimeline />
+            <Counter conferenceDate={conferenceDate}/>
 
         </section>
 

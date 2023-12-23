@@ -14,7 +14,7 @@ import Heading from "./Heading";
 
 export default function ActivitiesTimeline() {
   return (
-    <>
+    <div className="mt-40">
       <Heading text="Timeline" />
     <div className="w-[25rem] mt-10">
       <Timeline>
@@ -67,6 +67,6 @@ export default function ActivitiesTimeline() {
         </TimelineItem>
       </Timeline>
     </div>
-    </>
+    </div>
   );
 }
