@@ -10,10 +10,13 @@ import {
 import {
   BellIcon,
 } from "@heroicons/react/24/solid";
+import Heading from "./Heading";
 
 export default function ActivitiesTimeline() {
   return (
-    <div className="w-[25rem]">
+    <>
+      <Heading text="Timeline" />
+    <div className="w-[25rem] mt-10">
       <Timeline>
         <TimelineItem className="h-28">
           <TimelineConnector className="!w-[78px]" />
@@ -64,5 +67,6 @@ export default function ActivitiesTimeline() {
         </TimelineItem>
       </Timeline>
     </div>
+    </>
   );
 }

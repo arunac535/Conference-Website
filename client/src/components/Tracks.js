@@ -1,12 +1,11 @@
 import React from "react";
+import Heading from "./Heading";
 
 export default function Tracks() {
   return (
     <section className="container mx-auto flex flex-col items-center justify-center py-10">
-      <h1 className="mb-10 font-extrabold text-center text-4xl text-gray-800 font-helvetica">
-        Tracks
-      </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <Heading text="Tracks"/>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
       <div className="p-4 text-md rounded-lg bg-white text-gray-900 shadow-md">
             <span className="font-medium">TT1:</span><br />
             <span className="font-bold text-lg">Power Converters, Devices, EMI/EMC and Packaging</span>
