@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function Button() {
+export default function Button({ text , link}) {
+
+  const handleRedirect = () => {
+    window.open(link);
+  };
+
   return (
-    <div>Button</div>
+    <button className='btn btn-primary' onClick={handleRedirect}>{text}</button>
   )
 }

@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
         <header>
-
+            
             <Carousel />
 
-            <Button />
+            <Button text="Brochure" link="https://pedes2024.org/static/pdf/Broucher.pdf" />
         </header>
             
         
