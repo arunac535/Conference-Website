@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Heading from '../Heading';
 
 const Counter = ({ conferenceDate }) => {
   const [timeRemaining, setTimeRemaining] = useState(getTimeRemaining());
@@ -27,8 +28,9 @@ const Counter = ({ conferenceDate }) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h2 className="text-2xl font-bold mb-4">Time to Conference</h2>
+    <div className="mt-40 h-50 flex flex-col items-center justify-center">
+      <Heading text="Time to Conference"/>
+      {/* <h2 className="text-2xl font-bold mb-4">Time to Conference</h2> */}
       <div className="flex justify-center space-x-4">
         <span className="text-lg font-semibold">
           {timeRemaining.days} Days

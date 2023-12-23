@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 export default function Tracks() {
   return (
-    <section className="container mx-auto flex flex-col items-center justify-center py-10">
+    <section className="mt-40 container mx-auto flex flex-col items-center justify-center py-10">
       <Heading text="Tracks"/>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
         <div className="p-4 text-md rounded-lg bg-white text-gray-900 shadow-md">
