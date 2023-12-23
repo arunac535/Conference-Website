@@ -1,71 +1,32 @@
-// import React from 'react'
-
-// export default function Logo() {
-//   return (
-//     <div>Logo</div>
-//   )
-// }
-
-
-
-
-import React from 'react';
-import nitk from "./../assets/nitk_logo.png";
+import React from "react";
+import nitk from "./../assets/nitk.png";
 import pedas from "../assets/pedas.png";
-import ieee from "./../assets/ieee.png"
-const Logo = () => {
+import ieee from "./../assets/ieee.png";
+import { Link } from "react-router-dom";
+
+export default function Logo() {
   return (
-    <header style={header}>
-      <div style={leftimage}>
-        <img src={pedas} alt="left" style={image1} />
+    <header className="flex justify-between items-center p-1">
+      <div className="mr-5">
+        <img src={pedas} alt="PEDES-IMAGE" className="w-80 h-30" />
       </div>
-      <div style={text}>
-        <h1></h1>
-      </div>
-      <div style={rightimage}>
-        <img src={nitk} alt="right" style={image2} />
-        <img src={ieee} alt="right" style={image3} />
-        
+      <div className="flex">
+        <Link to="https://www.nitk.ac.in/">
+          <img
+            src={nitk}
+            alt="NITK_LOGO"
+            className="w-40 h-30 rounded-md mr-5"
+          />
+        </Link>
+
+        <Link to="https://www.ieee.org/">
+          <img
+            src={ieee}
+            alt="IEEE_LOGO"
+            className="w-50 h-20 rounded-md mr-5"
+          />
+        </Link>
       </div>
     </header>
   );
-};
-
-
-const header = {
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  padding: '5px',
-};
-
-const leftimage = {
-  marginRight: '20px',
-};
-
-const rightimage = {
-  display: 'flex',
-};
-
-const text = {
-  flex: 1,
-};
-
-const image1 = {
-  width: '330px',
-  borderRadius:'',
 }
-
-const image2 = {
-  width: '90px',
-  height: '',
-  borderRadius: '10%', 
-  marginRight:'20px'
-};
-
-const image3 = {
-  width: '90px',
-  borderRadius: '',
-}
-
-export default Logo;

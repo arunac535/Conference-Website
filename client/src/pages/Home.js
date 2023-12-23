@@ -16,10 +16,8 @@ export default function Home() {
             
             <Carousel />
 
-            <Button text="Brochure" link="https://pedes2024.org/static/pdf/Broucher.pdf" />
+            <Button text="Brochure" link="" />
         </header>
-            
-        
         <main>
 
             <Main />
