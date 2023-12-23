@@ -8,9 +8,6 @@ import { Link } from "react-router-dom";
 export default function Logo2() {
   return (
     <div className="mb-20">
-      <h1 className="text-5xl font-bold mb-10 py-5 text-gray-900 text-center">
-        Society Sponsors
-      </h1>
       <div className="flex">
         <Link to="https://ias.ieee.org/">
           <img src={ias} alt="IAS_LOGO" className="h-20 md:h-40 mr-10 ml-20" />

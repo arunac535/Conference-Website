@@ -1,14 +1,14 @@
 import React from "react";
 import nitk from "./../assets/nitk.png";
-import pedas from "../assets/pedas.png";
-import ieee from "./../assets/ieee.png";
+import assets from "../assets/assets.jpg";
+// import ieee from "./../assets/ieee.png";
 import { Link } from "react-router-dom";
 
 export default function Logo() {
   return (
     <header className="flex justify-between items-center p-1">
       <div className="object-cover">
-        <img src={pedas} alt="PEDES-IMAGE" className="h-20 md:h-40 mx-1" />
+        <img src={assets} alt="PEDES-IMAGE" className="h-30 md:h-40 mx-1 object-cover" />
       </div>
 
       <div className="flex">
@@ -20,13 +20,13 @@ export default function Logo() {
           />
         </Link>
 
-        <Link to="https://www.ieee.org/">
+        {/* <Link to="https://www.ieee.org/">
           <img
             src={ieee}
             alt="IEEE_LOGO"
             className="h-20 md:h-30 mx-1"
           />
-        </Link>
+        </Link> */}
       </div>
     </header>
   );
