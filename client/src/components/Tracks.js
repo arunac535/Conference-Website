@@ -1,14 +1,13 @@
 import React from "react";
 
-
 export default function Tracks() {
   return (
-    <section className="bg-white container">
-        <h1 className="mb-20 font-extrabold text-center h-1 my-2 text-gray-800 md:text-5xl font-helvetica">
-          Tracks
-        </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="p-4 text-md rounded-lg bg-white text-gray-900 shadow-md">
+    <section className="bg-white container mx-auto flex flex-col items-center justify-center py-10">
+      <h1 className="mb-10 font-extrabold text-center text-4xl text-gray-800 font-helvetica">
+        Tracks
+      </h1>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="p-4 text-md rounded-lg bg-white text-gray-900 shadow-md">
             <span className="font-medium">TT1:</span><br />
             <span className="font-bold text-lg">Power Converters, Devices, EMI/EMC and Packaging</span>
           </div>
@@ -41,7 +40,7 @@ export default function Tracks() {
             <span className="font-bold text-lg">Applications of AI and ML Techniques to
 					Power Electronics</span>
           </div>
-        </div>
+      </div>
     </section>
   );
 }
