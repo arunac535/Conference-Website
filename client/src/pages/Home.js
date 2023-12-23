@@ -13,18 +13,16 @@ export default function Home() {
   return (
     <>
         <header>
-            
             <Carousel />
-
             <Button text="Brochure" link="" />
         </header>
-        <main>
+        <section>
 
             <Main />
             <Tracks />
             <Timeline />
 
-        </main>
+        </section>
 
         <footer>
             <Footer />

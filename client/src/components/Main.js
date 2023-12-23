@@ -6,7 +6,7 @@ import Logo2 from "./Logo2";
 
 export default function Main() {
   return (
-    <div className="container px-4 my-20 mb-20">
+    <div className="container px-4 mb-20 flex-grow max-w-screen-xl">
       
       <Logo2 />
       <h1 className="text-5xl font-bold m-10 text-center font-helvetica">About PEDES</h1>
