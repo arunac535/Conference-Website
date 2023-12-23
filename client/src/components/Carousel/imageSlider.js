@@ -1,7 +1,7 @@
-import First from '../../assets/eee.jpeg'
-import Second from '../../assets/images.jpeg'
-import Third from '../../assets/Kite-Festival.jpg'
-import Fourth from '../../assets/MB.jpg'
+import First from '../../assets/MB.jpg'
+import Second from '../../assets/Kite-Festival.jpg'
+import Third from '../../assets/pic3.jpeg'
+import Fourth from '../../assets/pic4.jpeg'
 
 export default [{
   title:'First Slider Image',
@@ -23,15 +23,6 @@ export default [{
   description: 'This is the Fourth slider image',
   urls:Fourth
 },
-{
-  title:'First Slider Image',
-  description: 'This is the First slider image',
-  urls:First
-},
-{
-  title:'First Slider Image',
-  description: 'This is the First slider image',
-  urls:First
-},
+
 
 ]
