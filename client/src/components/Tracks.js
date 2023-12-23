@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tracks() {
   return (
-    <section className="bg-white container mx-auto flex flex-col items-center justify-center py-10">
+    <section className="container mx-auto flex flex-col items-center justify-center py-10">
       <h1 className="mb-10 font-extrabold text-center text-4xl text-gray-800 font-helvetica">
         Tracks
       </h1>
