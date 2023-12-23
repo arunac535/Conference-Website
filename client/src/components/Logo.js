@@ -6,20 +6,26 @@
 //   )
 // }
 
+
+
+
 import React from 'react';
-import nitk from "./nitk_logo.png";
-import im2 from "./download.png"
+import nitk from "./../assets/nitk_logo.png";
+import pedas from "../assets/pedas.png";
+import ieee from "./../assets/ieee.png"
 const Logo = () => {
   return (
     <header style={header}>
       <div style={leftimage}>
-        <img src={nitk} alt="left" style={image} />
+        <img src={pedas} alt="left" style={image1} />
       </div>
       <div style={text}>
-        <h1>ASSETS</h1>
+        <h1></h1>
       </div>
       <div style={rightimage}>
-        <img src={im2} alt="right" style={image} />
+        <img src={nitk} alt="right" style={image2} />
+        <img src={ieee} alt="right" style={image3} />
+        
       </div>
     </header>
   );
@@ -30,11 +36,11 @@ const header = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '20px',
+  padding: '5px',
 };
 
 const leftimage = {
-  marginRight: '10px',
+  marginRight: '20px',
 };
 
 const rightimage = {
@@ -45,9 +51,21 @@ const text = {
   flex: 1,
 };
 
-const image = {
-  width: '100px',
-  height: '100px',
+const image1 = {
+  width: '330px',
+  borderRadius:'',
+}
+
+const image2 = {
+  width: '90px',
+  height: '',
   borderRadius: '10%', 
+  marginRight:'20px'
 };
+
+const image3 = {
+  width: '90px',
+  borderRadius: '',
+}
+
 export default Logo;
