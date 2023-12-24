@@ -5,7 +5,7 @@ import Main from '../components/Main';
 import ActivitiesTimeline from '../components/ActivitiesTimeline';
 import Footer from '../components/Footer';
 import Tracks from '../components/Tracks';  
-import CarouselWithContent from '../components/CarouselWithText';
+
 import Counter from "../components/Counter/counter-logic";
 
 
@@ -16,7 +16,7 @@ export default function Home() {
     <>
         <header>
             {/* <Carousel /> */}
-            <CarouselWithContent />
+            {/* <CarouselWithContent /> */}
             <Button text="Brochure" link="" />
         </header>
         <section className='container mx-auto flex flex-col items-center justify-center'>

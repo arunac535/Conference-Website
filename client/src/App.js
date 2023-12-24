@@ -20,7 +20,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Logo/>
+    {/* <Logo/> */}
       <Navbar/>
       <Routes>
        <Route path="/" index element = {<Home />} />

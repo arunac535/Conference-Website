@@ -4,7 +4,7 @@ import {Typography, Button } from "@material-tailwind/react";
  
 export default function CarouselWithContent() {
   return (
-    <div className="h-100 sm:h-80 ">
+    <div className=" h-100 sm:h-80 ">
       <Carousel>
         
         <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
