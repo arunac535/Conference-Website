@@ -5,7 +5,7 @@ import Main from '../components/Main';
 import ActivitiesTimeline from '../components/ActivitiesTimeline';
 import Footer from '../components/Footer';
 import Tracks from '../components/Tracks';  
-import CarouselWithContent from '../components/CarouselWithText';
+
 import Counter from "../components/Counter/counter-logic";
 
 
