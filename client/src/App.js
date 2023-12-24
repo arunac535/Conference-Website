@@ -10,6 +10,10 @@ import ForAuthors from "./pages/ForAuthors";
 import Registration from "./pages/Registration";
 import Speakers from "./pages/Speakers";
 import Sponsorship from "./pages/Sponsorship";
+import CallforPapers from "./components/CallforPapers";
+import PaperSubmission from "./components/PaperSubmission";
+import TechnicalTracks from "./components/TechnicalTracks";
+import ImportantDate from "./components/ImportantDate";
 
 
 function App() {
@@ -27,6 +31,11 @@ function App() {
           <Route path="/Sponsorship" element={<Sponsorship />} />
           <Route path="/Accomodation" element={<Accomodation />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/ImportantDates" element={<ImportantDate/>}/>
+          <Route path="/CallForPapers" element={<CallforPapers/>}/>
+          <Route path="/TechnicalTracks" element={<TechnicalTracks/>}/>
+          <Route path="/PaperSubmission" element={<PaperSubmission/>}/>
+          
         </Routes>
       </BrowserRouter>
     </>
