@@ -1,13 +1,14 @@
 import React from 'react'
 import Logo from '../components/Logo'
 import Navbar from '../components/Navbar'
-function PaperSubmission() {
+
+function TechnicalTracks() {
   return (
-    <header>
+    <div>
       <Logo />
       <Navbar />
-    </header>
+    </div>
   )
 }
 
-export default PaperSubmission
+export default TechnicalTracks
