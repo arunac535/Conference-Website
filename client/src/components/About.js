@@ -1,4 +1,5 @@
 import React from "react";
+import { ImFontSize } from "react-icons/im";
 
 export default function About() {
   return (
@@ -34,8 +35,8 @@ export default function About() {
               <div className="flex justify-center">
                 {/* Image */}
                 <img
-                  src=""
-                  alt="NITK IMAGE empty src rn"
+                  src="https://pedes2024.org/static/img/nitk.webp"
+                  alt="An image of the Main Building of NITK"
                   className="h-auto max-h-full max-w-full"
                 />
               </div>
@@ -80,8 +81,58 @@ export default function About() {
           </div>
         </div>
 
-        {/* Rest of the content... */}
-        {/* ... */}
+        {/* About the EEE department */}
+        <div className="my-8 text-center">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+              About Electrical and Electronics Engineering Department
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="flex justify-center">
+                <p>
+                  The EEE Department at NIT Karnataka, established in 1960, has evolved to offer a specialized 
+                  postgraduate program in Power and Energy Systems since 1992, and Ph.D. programs since 2003. The 
+                  department boasts cutting-edge laboratories and a dynamic faculty engaged in teaching, research, 
+                  and industry collaboration. Key research areas include Smart Grid Operation & Control, Power 
+                  Electronics & Renewable Energy, Biomedical Imaging & Signal Processing, Electric Vehicle & Wireless 
+                  Power Transfer, and Artificial Intelligence & Machine Learning.
+                  Faculty accolades include the Young Faculty Research Fellowship and the POSOCO award. The 
+                  department actively pursues externally funded research projects from entities like DST, SERB, MNRE, 
+                  CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, and MeitY. 
+                  Additionally, the department undertakes consultancy projects, resulting in numerous publications, 
+                  including patents, in international journals and conferences throughout the year.
+                </p>
+              </div>
+              <img src="https://pedes2024.org/static/img/eee_dept.jpg" alt="An image of the EEE department of NITK"/>
+            </div>
+          </div>
+        </div>
+        {/* About Mangalore */}
+        <div className="my-8 text-center">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+              About Mangalore
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <img src="https://media.istockphoto.com/id/644355056/photo/splendid-view-of-green-clean-mangalore.jpg?s=612x612&w=0&k=20&c=gY3dpBqpiuf_o5jqpHO86_VFqlrqOmS1t1mCVNjsCPE=" alt="Mangalore Image"/>
+              <div className="flex justify-center">
+                <p>
+                  Mangalore, a coastal city in the southwestern state of Karnataka, India, is renowned 
+                  for its picturesque landscapes, vibrant culture, and historical significance. Nestled 
+                  between the Arabian Sea and the Western Ghats, Mangalore is a melting pot of diverse 
+                  communities, fostering a rich tapestry of traditions and languages. The city is celebrated 
+                  for its unique cuisine, influenced by a blend of coastal flavors and aromatic spices. 
+                  Mangalore is also a hub of educational institutions and economic activities, with a 
+                  thriving port adding to its commercial importance. Visitors are drawn to its pristine 
+                  beaches, such as Panambur and Tannirbhavi, and iconic landmarks like the Kadri Manjunath 
+                  Temple and St. Aloysius Chapel, showcasing a harmonious coexistence of religious diversity. 
+                  Overall, Mangalore captivates with its enchanting coastal beauty, cultural vibrancy, and a 
+                  dynamic blend of modernity and tradition.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
