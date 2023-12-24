@@ -34,8 +34,8 @@ export default function About() {
               <div className="flex justify-center">
                 {/* Image */}
                 <img
-                  src=""
-                  alt="NITK IMAGE empty src rn"
+                  src="https://pedes2024.org/static/img/nitk.webp"
+                  alt="An image of the Main Building of NITK"
                   className="h-auto max-h-full max-w-full"
                 />
               </div>
@@ -80,7 +80,33 @@ export default function About() {
           </div>
         </div>
 
-        {/* Rest of the content... */}
+        {/* About the EEE department */}
+        <div className="my-8 text-center">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+              About Electrical and Electronics Engineering Department
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="flex justify-center">
+                <p>
+                  The EEE Department at NIT Karnataka, established in 1960, has evolved to offer a specialized 
+                  postgraduate program in Power and Energy Systems since 1992, and Ph.D. programs since 2003. The 
+                  department boasts cutting-edge laboratories and a dynamic faculty engaged in teaching, research, 
+                  and industry collaboration. Key research areas include Smart Grid Operation & Control, Power 
+                  Electronics & Renewable Energy, Biomedical Imaging & Signal Processing, Electric Vehicle & Wireless 
+                  Power Transfer, and Artificial Intelligence & Machine Learning.
+                  Faculty accolades include the Young Faculty Research Fellowship and the POSOCO award. The 
+                  department actively pursues externally funded research projects from entities like DST, SERB, MNRE, 
+                  CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, and MeitY. 
+                  Additionally, the department undertakes consultancy projects, resulting in numerous publications, 
+                  including patents, in international journals and conferences throughout the year.
+                </p>
+              </div>
+              <img src="https://pedes2024.org/static/img/eee_dept.jpg" alt="An image of the EEE department of NITK"/>
+            </div>
+            
+          </div>
+        </div>
         {/* ... */}
       </div>
     </div>
