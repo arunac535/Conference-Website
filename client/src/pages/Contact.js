@@ -24,12 +24,12 @@ function Contact() {
                 </h2>
                 <div className="flex justify-center">
                   <div className="mr-20 text-center">
-                    <p className="font-bold text-xl mb-2 tracking-wider">
-                      R.Kalpana
+                    <p className="font-bold text-xl mb-2 tracking-normal">
+                      Yashwant Kashyap
                     </p>
                   </div>
                   <div className="text-center">
-                    <p className="font-bold text-xl mb-2">P.Parthiban</p>
+                    <p className="font-bold text-xl mb-2 tracking-normal">P.Parthiban</p>
                   </div>
                 </div>
               </div>
