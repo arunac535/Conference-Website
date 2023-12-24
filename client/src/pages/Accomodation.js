@@ -1,8 +1,13 @@
 import React from 'react'
+import Logo from '../components/Logo'
+import Navbar from '../components/Navbar'
 
 function Accomodation() {
   return (
-    <div>Accomodation</div>
+    <header>
+      <Logo />
+      <Navbar />
+    </header>
   )
 }
 

@@ -1,8 +1,13 @@
 import React from 'react'
+import Logo from '../components/Logo'
+import Navbar from '../components/Navbar'
 
 function EventDetails() {
   return (
-    <div>EventDetails</div>
+    <header>
+      <Logo />
+      <Navbar />
+    </header>
   )
 }
 

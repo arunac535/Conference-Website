@@ -1,8 +1,13 @@
 import React from 'react'
+import Logo from '../components/Logo'
+import Navbar from '../components/Navbar'
 
 function Sponsorship() {
   return (
-    <div>Sponsorship</div>
+    <header>
+      <Logo />
+      <Navbar />
+    </header>
   )
 }
 
