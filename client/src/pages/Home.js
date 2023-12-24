@@ -17,7 +17,6 @@ export default function Home() {
         <header>
             {/* <Carousel /> */}
             {/* <CarouselWithContent /> */}
-            <Button text="Brochure" link="" />
         </header>
         <section className='container mx-auto flex flex-col items-center justify-center'>
 
