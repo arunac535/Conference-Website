@@ -40,7 +40,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/ForAuthors"
+              to="/authors"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               For Authors
@@ -48,7 +48,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Commitee"
+              to="/commitee"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Committee
@@ -56,7 +56,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Speakers"
+              to="/speakers"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Speakers
@@ -64,7 +64,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/EventDetails"
+              to="/eventDetails"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Event Details
@@ -72,7 +72,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Registration"
+              to="/registration"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Registration
@@ -80,7 +80,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Sponsorship"
+              to="/sponsorship"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Sponsorship
@@ -88,7 +88,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Accomodation"
+              to="/accomodation"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Accommodation
@@ -96,7 +96,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/Contact"
+              to="/contact"
               className="block py-2 px-4 text-white hover:bg-gray-700"
             >
               Contact

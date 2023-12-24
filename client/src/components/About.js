@@ -14,8 +14,8 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-8 text-gray-700">
               About NITK
             </h2>
-            <p className="text-justify  text-xl font-arial mb-10">
-              National Institute of Technology Karnataka, Surathkal is located
+            <p className="text-justify text-xl font-arial mb-10">
+            National Institute of Technology Karnataka, Surathkal is located
               in Mangalore City, Karnataka State, India. The Institute was
               established as Karnataka Regional Engineering College (KREC) in
               1960, and upgraded as National Institute of Technology Karnataka
@@ -33,7 +33,6 @@ export default function About() {
             {/* Image and video section */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="flex justify-center">
-                {/* Image */}
                 <img
                   src="https://pedes2024.org/static/img/nitk.webp"
                   alt="An image of the Main Building of NITK"
@@ -84,40 +83,47 @@ export default function About() {
         {/* About the EEE department */}
         <div className="my-8 text-center">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+            <h2 className="text-4xl font-bold mb-8 text-gray-700">
               About Electrical and Electronics Engineering Department
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="flex justify-center">
-                <p>
-                  The EEE Department at NIT Karnataka, established in 1960, has evolved to offer a specialized 
-                  postgraduate program in Power and Energy Systems since 1992, and Ph.D. programs since 2003. The 
-                  department boasts cutting-edge laboratories and a dynamic faculty engaged in teaching, research, 
-                  and industry collaboration. Key research areas include Smart Grid Operation & Control, Power 
-                  Electronics & Renewable Energy, Biomedical Imaging & Signal Processing, Electric Vehicle & Wireless 
-                  Power Transfer, and Artificial Intelligence & Machine Learning.
-                  Faculty accolades include the Young Faculty Research Fellowship and the POSOCO award. The 
-                  department actively pursues externally funded research projects from entities like DST, SERB, MNRE, 
-                  CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, and MeitY. 
-                  Additionally, the department undertakes consultancy projects, resulting in numerous publications, 
-                  including patents, in international journals and conferences throughout the year.
-                </p>
+              <p class="max-w-lg p-4 bg-white shadow-md rounded-md text-gray-700">
+      The EEE Department at NIT Karnataka, established in 1960, has evolved to offer a specialized 
+      postgraduate program in Power and Energy Systems since 1992, and Ph.D. programs since 2003. The 
+      department boasts cutting-edge laboratories and a dynamic faculty engaged in teaching, research, 
+      and industry collaboration. Key research areas include Smart Grid Operation & Control, Power 
+      Electronics & Renewable Energy, Biomedical Imaging & Signal Processing, Electric Vehicle & Wireless 
+      Power Transfer, and Artificial Intelligence & Machine Learning.
+      Faculty accolades include the Young Faculty Research Fellowship and the POSOCO award. The 
+      department actively pursues externally funded research projects from entities like DST, SERB, MNRE, 
+      CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, and MeitY. 
+      Additionally, the department undertakes consultancy projects, resulting in numerous publications, 
+      including patents, in international journals and conferences throughout the year.
+    </p>
               </div>
-              <img src="https://pedes2024.org/static/img/eee_dept.jpg" alt="An image of the EEE department of NITK"/>
+              <img
+                src="https://pedes2024.org/static/img/eee_dept.jpg"
+                alt="An image of the EEE department of NITK"
+              />
             </div>
           </div>
         </div>
+
         {/* About Mangalore */}
         <div className="my-8 text-center">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+            <h2 className="text-4xl font-bold mb-8 text-gray-700">
               About Mangalore
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <img src="https://media.istockphoto.com/id/644355056/photo/splendid-view-of-green-clean-mangalore.jpg?s=612x612&w=0&k=20&c=gY3dpBqpiuf_o5jqpHO86_VFqlrqOmS1t1mCVNjsCPE=" alt="Mangalore Image"/>
+              <img
+                src="https://media.istockphoto.com/id/644355056/photo/splendid-view-of-green-clean-mangalore.jpg?s=612x612&w=0&k=20&c=gY3dpBqpiuf_o5jqpHO86_VFqlrqOmS1t1mCVNjsCPE="
+                alt="Mangalore Image"
+              />
               <div className="flex justify-center">
-                <p>
-                  Mangalore, a coastal city in the southwestern state of Karnataka, India, is renowned 
+              <p class="max-w-lg p-4 bg-white shadow-md rounded-md text-gray-700">
+                Mangalore, a coastal city in the southwestern state of Karnataka, India, is renowned 
                   for its picturesque landscapes, vibrant culture, and historical significance. Nestled 
                   between the Arabian Sea and the Western Ghats, Mangalore is a melting pot of diverse 
                   communities, fostering a rich tapestry of traditions and languages. The city is celebrated 
