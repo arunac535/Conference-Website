@@ -1,5 +1,5 @@
 import React from "react";
-import { ImFontSize } from "react-icons/im";
+
 
 export default function About() {
   return (
@@ -137,6 +137,55 @@ export default function About() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        {/* Getting to NITK */}
+        <div className="my-8 text-center">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-gray-700">
+              Getting to NITK
+            </h2>
+            <strong>NITK is located in Surathkal, which is very close to a big city like Mangalore, making it very easy to reach NITK!</strong>
+            <ol>
+              <li>Owing to a National Highway passing right in front of the college, all intercity and interstate buses make sure to stop right at the gate of the college as well.</li>
+              <li>Thanks to great connectivity with Mangalore, coming by flight to Mangalore airport is also a viable mode of transport. Mangalore airport caters to both, domestic as well as international flights!</li>
+              <li>Coming to trains, once again, using Mangalore's stations remain a great choice. Mangalore has two stations, the Central and Junction stations. Either can be used to travel here.</li>
+              <li>While Surathkal itself has a station, it is not a prominent stop in longer route trains and is more suited to short distance travels to and from nearby areas.</li>
+            </ol>
+            <b className="text-center">Distance from surrounding stations and airport</b>
+            <div className="text-center">
+              <table>
+                <tr>
+                  <th>Destination</th>
+                  <th>Distance</th>
+                </tr>
+                <tr>
+                  <td>Mangalore Airport</td>
+                  <td>20 km</td>
+                </tr>
+                <tr>
+                  <td>Mangalore Central Railway Station</td>
+                  <td>21 km</td>
+                </tr>
+                <tr>
+                  <td>Mangalore Junction Railway Station</td>
+                  <td>25 km</td>
+                </tr>
+                <tr>
+                  <td>Surathkal Railway Station</td>
+                  <td>4 km</td>
+                </tr>
+                <tr>
+                  <td>Mangalore Bus Stand</td>
+                  <td>22 km</td>
+                </tr>
+                <tr>
+                  <td>Udupi Bus Stand</td>
+                  <td>35 km</td>
+                </tr>
+              </table>
+            </div>
+            
           </div>
         </div>
       </div>
