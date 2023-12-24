@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-800 p-4">
+      <nav className="bg-gray-800 p-4 h-20">
         <button
           className="block lg:hidden text-white"
           onClick={() => setMobile(!Mobile)}
