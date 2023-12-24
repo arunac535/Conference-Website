@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Tracks from '../components/Tracks';  
 
 import Counter from "../components/Counter/counter-logic";
+import Slider from "../components/carousel/Slider";
 
 
 export default function Home() {
@@ -17,6 +18,8 @@ export default function Home() {
         <header>
             {/* <Carousel /> */}
             {/* <CarouselWithContent /> */}
+
+            <Button text="Brochure" link="" />
         </header>
         <section className='container mx-auto flex flex-col items-center justify-center'>
 
