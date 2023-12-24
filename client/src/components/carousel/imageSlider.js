@@ -1,8 +1,8 @@
-import First from '../../assets/pic1.jpeg'
-import Second from '../../assets/pic2.jpeg'
-import Third from '../../assets/pic3.jpeg'
-import Fourth from '../../assets/pic4.jpeg'
-import Fifth from '../../assets/Kite-Festival.jpg'
+import First from '../../assets/img1.jpg'
+import Second from '../../assets/img2.jpg'
+import Third from '../../assets/img3 (1).jpg'
+import Fourth from '../../assets/img4.jpg'
+import Fifth from '../../assets/img6.jpg'
 
 export default [{
   title:'First Slider Image',
