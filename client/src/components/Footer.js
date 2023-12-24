@@ -8,7 +8,7 @@ export default function Footer() {
         <span className="text-lg text-gray-500 sm:text-center dark:text-gray-400">
           &copy; 2023-2024 {"  "}
           <Link to ="" className="hover:underline">
-            PEDES {"   "}
+            ASSETS {"   "}
           </Link>
           . All Rights Reserved.
         </span>
