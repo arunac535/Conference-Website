@@ -10,25 +10,34 @@ export default function CommiteeData() {
       </div>
 
       <div class=" ml-5 mt-5 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl font-bold text-left">Patron</h2>
+        <h2 class="text-4xl font-bold text-left">Keynote Speakers</h2>
       </div>
       <div className="m-10">
         <div class="relative overflow-x-auto w-11/12 mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                B Ravi
+                Prof. R N Patel
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">Director NITK, India</p>
+                <p class="mb-2 text-lg font-helvetica">Affiliation</p>
+              </div>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Prof. A Bansal
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">Affiliation required</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+
       <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-left">Honorary Chairs</h2>
+        <h2 class="text-4xl  font-bold text-left">National Advisory Committee</h2>
       </div>
 
       <div className="my-5">
@@ -36,84 +45,321 @@ export default function CommiteeData() {
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Andy Knight
+                Prof. Nagamani C
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  President IEEE IAS, Canada
+                  NIT Trichy
                 </p>
               </div>
             </div>
 
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Brad Lehman
+                Prof. Ashok
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  President IEEE PELS, USA
+                  NIT Calicut
                 </p>
               </div>
             </div>
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Milos Manic
+                Prof. RN Patel
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  President IEEE IES, USA
+                  NIT Raipur
                 </p>
               </div>
             </div>
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Shay Bahramirad
+                Prof. A Bansal
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  President IEEE PES, USA
+                  IIT Roorkee
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-white-600  text-left">
-          General Chairs
-        </h2>
-      </div>
-
-      <div id="GeneralChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                R Kalpana
+                Prof. Thanga Chellaiah
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Roorkee
+                </p>
               </div>
             </div>
 
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                P Parthiban
+                Rahul Dev
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
+                <p class="mb-2 text-lg font-helvetica">
+                  MNIT, Allahabad
+                </p>
               </div>
             </div>
 
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Brij N Singh
+                Prof. A K Sao
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">John Deere, USA</p>
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Bhilai
+                </p>
               </div>
             </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Prof. S Patel
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Indore
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Prof. G R Sinha
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  Vice Chancellor, GSFC University
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Prof. Pradeep R. Nair
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Bombay
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Vinod Kumar
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  Affiliation required
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Venkateswarlu P
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  Lead Engineer at Hitachi ABB Power Grids
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Srinivasa S
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  Team Leader E R&D Turbo Energy Limited
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Anuj Raizada
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  BHEL
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Lakshman Mahto
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIIT Dharwad
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Thirumurugan Chandrasekaran
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  VIT
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Ajay Soni
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Mandi
+                </p>
+              </div>
+            </div>
+            
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Dr. Subit Kumar Jain
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  NIT Hamirpur
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Himmat Singh Kushwaha
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  NIT Jaipur
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Anshul Sharma
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  NIT Hamirpur
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Dr. Hari Vansh Rai Mittal
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Palakkad
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Ramesh Bansal
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  University of Sharjah
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Suryanarayana Doolla
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Bombay
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                B.G. Fernandez
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Bombay
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Abdul Beige
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  Khalifa University
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Lakshmi Prasad Natarajan
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Hyderabad
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Mahesh Kumar
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Madras
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                G.N. Pillai
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Roorkee
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow-md">
+              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
+                Vishal Kumar
+              </div>
+              <div class="text-gray-700">
+                <p class="mb-2 text-lg font-helvetica">
+                  IIT Roorkee
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -130,101 +376,101 @@ export default function CommiteeData() {
             {/* <!-- Person 1 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Krishna Vasudevan
+                Shashi Bhushan Srivastav
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Madras, India</p>
+                <p class="mb-2 text-lg font-helvetica">Michigan</p>
               </div>
             </div>
 
             {/* <!-- Person 2 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Bhim Singh
+                A Sharma
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Delhi, India</p>
+                <p class="mb-2 text-lg font-helvetica">NASA, USA</p>
               </div>
             </div>
 
             {/* <!-- Person 3 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Pramod Agarwal
+                Pavan Kumar
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Roorkee, India</p>
+                <p class="mb-2 text-lg font-helvetica">IMEC, Belgium</p>
               </div>
             </div>
 
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                S. S. Murthy
+                Vijay Chauhan
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  IIT Delhi (Rtd.), India
+                  CEO, Geotropy, Iceland
                 </p>
               </div>
             </div>
 
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                B. G. Fernandes
+                Ashok Bhat
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Bombay, India</p>
+                <p class="mb-2 text-lg font-helvetica">Professor, Canada</p>
               </div>
             </div>
 
             {/* <!-- Person 5 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Vivek Agarwal
+                Jan Kleissl
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Bombay, India</p>
+                <p class="mb-2 text-lg font-helvetica">Professor, University of California, San Diego, USA</p>
               </div>
             </div>
 
             {/* <!-- Person 6 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                K Gopakumar
+                Madhav Singh
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IISc Bangalore, India</p>
+                <p class="mb-2 text-lg font-helvetica">Electrochemist, UK</p>
               </div>
             </div>
 
             {/* <!-- Person 7 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Frede Blaabjerg
+                Pradeep Chawda
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">Aalborg, Denmark</p>
+                <p class="mb-2 text-lg font-helvetica">Apple, USA</p>
               </div>
             </div>
 
             {/* <!-- Person 8 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prasad Enjeti
+                Annette Hammer
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">Texas AMU, USA</p>
+                <p class="mb-2 text-lg font-helvetica">DLR, Germany</p>
               </div>
             </div>
 
             {/* <!-- Person 9 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Kamal Al Haddad
+                Joshi Bollam
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  University of Quebec, Canada
+                  Chubb, USA
                 </p>
               </div>
             </div>
@@ -232,11 +478,11 @@ export default function CommiteeData() {
             {/* <!-- Person 10 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Ambrish Chandra
+                Vijay Teegela
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  University of Toronto, Canada
+                  EAI Architect at C&S Wholesale Grocers, USA
                 </p>
               </div>
             </div>
@@ -244,11 +490,11 @@ export default function CommiteeData() {
             {/* <!-- Person 11 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Ned Mohan
+                Manish Sharma
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  University of Minnesota, USA
+                  Senior Optical Engineer, Canada
                 </p>
               </div>
             </div>
@@ -256,11 +502,11 @@ export default function CommiteeData() {
             {/* <!-- Person 12 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Joachim Holtz
+                Jalim Singh
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  University of Wuppertal, Germany
+                  OHSU Portland, USA
                 </p>
               </div>
             </div>
@@ -268,11 +514,11 @@ export default function CommiteeData() {
             {/* <!-- Person 13 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Jose Rodriguez
+                Dr. Saurabh Singh
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  Universidad San Sebastian, Chile
+                  IST Austria
                 </p>
               </div>
             </div>
@@ -280,111 +526,31 @@ export default function CommiteeData() {
             {/* <!-- Person 14 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Chandan Chakraborty
+                Aditya Chauhan
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Kharagpur, India</p>
+                <p class="mb-2 text-lg font-helvetica">ASM, Belgium</p>
               </div>
             </div>
 
             {/* <!-- Person 15 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Sanjib K Panda
+                Vishrut Shah
               </div>
               <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NUS, Singapore</p>
+                <p class="mb-2 text-lg font-helvetica">Nous, Canada</p>
               </div>
             </div>
 
             {/* <!-- Person 16 --> */}
             <div class="bg-white p-4 rounded shadow-md">
               <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Kouki Matsuse
+                Akshay Kumar Swain
               </div>
               <div class="text-gray-700">
                 <p class="mb-2 text-lg font-helvetica">
-                  Meiji University, Japan
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- Person 17 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Praveen Jain
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  Queen's University, Canada
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- Person 18 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Lalit Goel
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NTU, Singapore</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 19 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Kaushik Rajashekara
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  University of Houston, USA
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- Person 20 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                J.J.Rodriguez-Andina
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  University of Vigo, Spain
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- Person 21 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Milos Manic
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">VCU, USA</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 22 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Anurag Srivastava
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  West Virginia University, USA
-                </p>
-              </div>
-            </div>
-
-            {/* <!-- Person 23 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Yang Shi
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  University of Victoria, Canada
+                  Affiliation required
                 </p>
               </div>
             </div>
@@ -392,303 +558,8 @@ export default function CommiteeData() {
         </div>
       </div>
 
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h3 class="text-4xl  font-bold text-white-600  text-left">
-          Technical Program Chairs
-        </h3>
-      </div>
+      
 
-      <div id="TechnicalProgramChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Person 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Chandan Kumar
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Guwahati, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Sanjeet Dwivedi
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  Danfoss Drives A/S, Denmark
-                </p>
-              </div>
-            </div>
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Dinesh Kumar
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  Danfoss Drives A/S, Denmark
-                </p>
-              </div>
-            </div>
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Deepak Ronanki
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IITM, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold  text-left">Publication Chairs</h2>
-      </div>
-
-      <div id="PublicationChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Person 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Pradyumn Chaturvedi
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">VNIT Nagpur, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Jaison Matthew
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">GEC Thrissur, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 3 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prajof P
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Kumaravel S
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NIT Calicut, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-white-600  text-left">
-          Finance Chairs
-        </h2>
-      </div>
-
-      <div id="FinanceChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Person 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Tukaram Moger
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-            {/* <!-- Person 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                D N Gaonkar
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-white-600  text-left">
-          Tutorial Chairs
-        </h2>
-      </div>
-
-      <div id="TutorialChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Person 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Praveen Kumar
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IIT Guwahati, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Md Waseem Ahmad
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-            {/* <!-- Person 3 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Deepakkumar M Fulwani
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">IITJ, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-white-600  text-left">
-          Plenary Chairs
-        </h2>
-      </div>
-
-      <div id="PlenaryChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Person 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Akshay Kumar Rathore
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">SIT, Singapore</p>
-              </div>
-            </div>
-
-            {/* <!-- Person 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Vinod Khadkikar
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">
-                  Khalifa University, UAE
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-3xl  font-bold text-white-600  text-left">Conveners</h2>
-      </div>
-
-      <div id="Conveners">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Convener 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Dipti Saxena
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">MNIT Jaipur, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Convener 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Mohit T
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Convener 3 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Dastagiri Reddy
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 class="text-4xl  font-bold text-white-600  text-left">
-          Publicity Chairs
-        </h2>
-      </div>
-
-      <div id="PublicityChairs">
-        <div class="relative overflow-x-auto w-11/12 mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            {/* <!-- Publicity Chair 1 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Yashwant Kashyap
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NITK, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Publicity Chair 2 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Sabha Raj Arya
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">SVNIT, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Publicity Chair 3 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Anmol Ratna Saxena
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">NIT Delhi, India</p>
-              </div>
-            </div>
-
-            {/* <!-- Publicity Chair 4 --> */}
-            <div class="bg-white p-4 rounded shadow-md">
-              <div class="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Shailendra Kumar Jain
-              </div>
-              <div class="text-gray-700">
-                <p class="mb-2 text-lg font-helvetica">MANIT, India</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 }
