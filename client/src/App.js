@@ -9,7 +9,7 @@ import EventDetails from "./pages/EventDetails";
 import Registration from "./pages/Registration";
 import Speakers from "./pages/Speakers";
 import Sponsorship from "./pages/Sponsorship";
-import CallForPapers from "./pages/CallForPapers";
+import CallForPapers from "./pages/CallforPapers";
 import PaperSubmission from "./pages/PaperSubmission";
 import TechnicalTracks from "./pages/TechnicalTracks";
 
