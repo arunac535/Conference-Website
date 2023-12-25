@@ -8,7 +8,7 @@ import Dropdown from "./Dropdown";
 export default function Navbar() {
   const [Mobile, setMobile] = useState(false);
   const [dropdown, setDropdown] = useState(false);
-  const [click, setClick] = useState(false);
+  // const [click, setClick] = useState(false);
   
 
   const onMouseEnter = () => {

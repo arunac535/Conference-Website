@@ -14,8 +14,11 @@ function AboutUs() {
 
       <main>
         <About />
-        <Footer />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
