@@ -1,8 +1,7 @@
 import React from 'react'
 import Logo from '../components/Logo'
-import Navbar from '../components/Navbar'
-
-function ForAuthors() {
+import Navbar from '../components/Navbar/Navbar'
+function PaperSubmission() {
   return (
     <header>
       <Logo />
@@ -11,4 +10,4 @@ function ForAuthors() {
   )
 }
 
-export default ForAuthors
+export default PaperSubmission

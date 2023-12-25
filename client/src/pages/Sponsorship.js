@@ -1,71 +1,7 @@
 import React from 'react'
 import Logo from '../components/Logo'
-import Navbar from '../components/Navbar'
-import Heading from '../components/Heading'
+import Navbar from '../components/Navbar/Navbar'
 
-
-const data=[
-  {
-    category:"Principal Sponsor",
-    fee:"INR 10.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"12 free delegates",
-      4:"Company logo as Principal sponsor on the website",
-      5:"Full page colour advertisement in the proceedings",			
-    }
-  },
-
-  {
-    category:"Co-Sponsor",
-    fee:"INR 8.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"10 free delegates",
-      4:"Company logo as Co-sponsor on the website",		
-    }
-  },
-
-  {
-    category:"Platinum Sponsor",
-    fee:"INR 6.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"8 free delegates",
-      4:"Company logo as Platinum sponsor on the website",			
-    }
-  },
-
-  {
-    category:"Gold Sponsor",
-    fee:"INR 4.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"4 free delegates",
-      4:"Company logo as Gold sponsor on the website",		
-    }
-  },
-
-  {
-    category:"Dinner Sponsor",
-    fee:"INR 4.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"4 free delegates",
-      4:"Company logo as Dinner sponsor on the website",		
-    }
-  },
-
-  {
-    category:"Lunch Sponsor",
-    fee:"INR 4.0 Lakhs",
-    entitlement:{1:"Display of logo at the conference backdrop",
-      2:"Display of banners at the conference venue",
-      3:"4 free delegates",
-      4:"Company logo as Lunch sponsor on the website",		
-    }
-  }
-]
 function Sponsorship() {
   return (
     <>

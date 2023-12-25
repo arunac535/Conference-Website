@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 
 function AboutUs() {
   return (
@@ -14,8 +14,11 @@ function AboutUs() {
 
       <main>
         <About />
-        <Footer />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

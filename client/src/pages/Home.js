@@ -8,7 +8,7 @@ import Tracks from "../components/Tracks";
 import Counter from "../components/Counter/counter-logic";
 import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Home() {
   const conferenceDate = "2024-01-06T23:59:59";
