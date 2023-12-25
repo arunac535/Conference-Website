@@ -1,4 +1,7 @@
 import React from "react";
+import nitkMB from './../assets/nitkMB.jpg'
+import eee_dept from './../assets/eee_dept.jpg'
+import mlr from './../assets/mangalore.jpg'
 
 export default function About() {
   return (
@@ -33,7 +36,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="flex justify-center">
                 <img
-                  src="https://pedes2024.org/static/img/nitk.webp"
+                  src={nitkMB}
                   alt="An image of the Main Building of NITK"
                   className="h-auto max-h-full max-w-full"
                 />
@@ -110,7 +113,7 @@ export default function About() {
                 </p>
               </div>
               <img
-                src="https://pedes2024.org/static/img/eee_dept.jpg"
+                src={eee_dept}
                 alt="An image of the EEE department of NITK"
               />
             </div>
@@ -126,7 +129,7 @@ export default function About() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <img
-                src="https://media.istockphoto.com/id/644355056/photo/splendid-view-of-green-clean-mangalore.jpg?s=612x612&w=0&k=20&c=gY3dpBqpiuf_o5jqpHO86_VFqlrqOmS1t1mCVNjsCPE="
+                src={mlr}
                 alt="Mangalore Image"
               />
               <div className="flex justify-center">
