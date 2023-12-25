@@ -1,5 +1,4 @@
 import React from "react";
-
 import Button from "../components/Button";
 import Main from "../components/Main";
 import ActivitiesTimeline from "../components/ActivitiesTimeline";
