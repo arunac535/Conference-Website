@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../components/Logo'
-import Navbar from '../components/Navbar'
-import Heading from "./Heading";
+import Navbar from '../components/Navbar/Navbar';
+
 
 function TechnicalTracks() {
   return (
