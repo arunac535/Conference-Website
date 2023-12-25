@@ -6,7 +6,7 @@ import ActivitiesTimeline from "../components/ActivitiesTimeline";
 import Footer from "../components/Footer";
 import Tracks from "../components/Tracks";
 import Counter from "../components/Counter/counter-logic";
-import Slider from "../components/Carousel/Slider";
+import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 
