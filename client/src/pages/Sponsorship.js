@@ -83,68 +83,68 @@ function Sponsorship() {
         <Navbar />
       </header>
 
-      <div className="pt-10 bg-gray-200 pb-20">
-        <Heading text="Sponsors" />
-        <Card className="h-full w-500  mx-12 shadow-xl mt-20">
-          <table className="w-full min-w-max table-auto text-left rounded-lg border">
-            <thead>
-              <tr>
-                {TABLE_HEAD.map((head) => (
-                  <th key={head} className="h-16  bg-blue-gray-100 p-4 ">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="font-normal leading-none opacity-70"
-                    >
-                      {head}
-                    </Typography>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {data.map(({ category, fee, entitlement }) => (
-                <tr key={category} className="even:bg-blue-gray-50/50">
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="font-normal"
-                    >
-                      {category}
-                    </Typography>
-                  </td>
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="font-normal"
-                    >
-                      {fee}
-                    </Typography>
-                  </td>
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="font-normal"
-                    >
-                      <ul>
-                        {Object.keys(entitlement).map((entKey, entIndex) => (
-                          <li key={entIndex}>{entitlement[entKey]}</li>
-                        ))}
-                      </ul>
-                    </Typography>
-                  </td>
+        <div className="pt-10 bg-gray-200 pb-20">
+          <Heading text="Sponsors" />
+          <Card className="h-full w-500  mx-12 shadow-xl mt-20">
+            <table className="w-full min-w-max table-auto text-left rounded-lg border">
+              <thead>
+                <tr>
+                  {TABLE_HEAD.map((head) => (
+                    <th key={head} className="h-16  bg-blue-gray-100 p-4 ">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-normal leading-none opacity-70"
+                      >
+                        {head}
+                      </Typography>
+                    </th>
+                  ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </Card>
-      </div>
-      <footer>
-        <Footer />
-      </footer>
+              </thead>
+              <tbody>
+                {data.map(({ category, fee, entitlement }) => (
+                  <tr key={category} className="even:bg-blue-gray-50/50">
+                    <td className="p-4">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-normal"
+                      >
+                        {category}
+                      </Typography>
+                    </td>
+                    <td className="p-4">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-normal"
+                      >
+                        {fee}
+                      </Typography>
+                    </td>
+                    <td className="p-4">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-normal"
+                      >
+                        <ul>
+                          {Object.keys(entitlement).map((entKey, entIndex) => (
+                            <li key={entIndex}>{entitlement[entKey]}</li>
+                          ))}
+                        </ul>
+                      </Typography>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </Card>
+        </div>
+        <footer>
+          <Footer />
+        </footer>
     </>
   );
 }
