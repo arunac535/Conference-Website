@@ -9,7 +9,6 @@ export default function Navbar() {
   const [Mobile, setMobile] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   // const [click, setClick] = useState(false);
-  
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
@@ -26,6 +25,10 @@ export default function Navbar() {
       setDropdown(false);
     }
   };
+
+  // const handleDropDownClick = () => {
+  //   setDropdown(!dropdown);
+  // };
   return (
     <>
       <nav className="bg-gray-800 p-4">
@@ -59,18 +62,15 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li
-            className="nav-item diplay:inline-block"
+            className="block py-2 px-4 text-white text-lg font-bold font-serif hover:bg-gray-700 rounded-lg cursor-pointer"
+            // onClick={handleDropDownClick}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <div
-              className="display: inline-block py-2 px-4 text-white text-lg font-bold font-serif hover:bg-gray-700 rounded-lg"
-            >
-              For Authors
-              <FaChevronDown
-                className={`inline w-3 h-4 mt-1 ml-2 transition-transform`}
-              />
-            </div>
+            For Authors
+            <FaChevronDown
+              className="inline w-3 h-4 mt-1 ml-2 transition-transform"
+            />
             {dropdown && <Dropdown />}
           </li>
           <li>
