@@ -2,16 +2,18 @@ import React from "react";
 import nitkMB from './../assets/nitkMB.jpg'
 import eee_dept from './../assets/eee_dept.jpg'
 import mlr from './../assets/mangalore.jpg'
+import Heading from "./Heading";
 
 export default function About() {
   return (
-    <div className="flex-grow mt-20">
+    <div className="flex-grow bg-gray-200 pt-10 pb-20">
       <div className="my-5 mx-auto w-11/12">
-        <h1 className="mb-20 text-center text-6xl font-extrabold tracking-normal text-gray-800 ">
+        {/* <h1 className="mb-20 text-center text-6xl font-extrabold tracking-normal text-gray-800 ">
           About Us
-        </h1>
+        </h1> */}
+        <Heading text="About Us" />
 
-        <div className="my-8 text-center ">
+        <div className="mt-20 text-center ">
           <div className="container mx-auto">
             <h2 className="text-4xl font-extrabold mb-8 text-gray-700">
             </h2>
@@ -69,7 +71,6 @@ export default function About() {
                         }}
                         src="https://www.youtube.com/embed/vEYwgdjac5Y?si=WRvgSyu3P_sHLFbi"
                         title="YouTube video player"
-                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
                       ></iframe>
@@ -91,7 +92,7 @@ export default function About() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="flex justify-center">
-                <p class="max-w-lg p-4 bg-white shadow-xl rounded-md text-gray-700">
+                <p className="max-w-lg p-4 bg-white shadow-xl rounded-md text-gray-700">
                   The EEE Department at NIT Karnataka, established in 1960, has
                   evolved to offer a specialized postgraduate program in Power
                   and Energy Systems since 1992, and Ph.D. programs since 2003.
@@ -184,63 +185,63 @@ export default function About() {
               Distance from surrounding stations and airport
             </div>
             <div class="relative overflow-x-auto">
-                            <table class="md:mx-auto text-lg text-left text-gray-500 mt-5 border border-6">
-                                <thead class="text-sm md:text-base text-gray-700 uppercase bg-gray-300">
+                            <table className="md:mx-auto text-lg text-left text-gray-500 mt-5 border border-6">
+                                <thead className="text-sm md:text-base text-gray-700 uppercase bg-gray-300">
                                     <tr>
-                                        <th scope="col" class="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
+                                        <th scope="col" className="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
                                             Destination
                                         </th>
-                                        <th scope="col" class="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
+                                        <th scope="col" className="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
                                             Distance
                                         </th>                                
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Mangalore Airport
                                         </th>
-                                        <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
+                                        <td className="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
                                             20km
                                         </td>
                                     </tr>
                                     <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Mangalore Central Railway Station
                                         </th>
                                         <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
                                             21km
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                    <tr className="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Mangalore Junction Railway Station
                                         </th>
-                                        <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900 border-gray-300">
+                                        <td className="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900 border-gray-300">
                                             25km
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                    <tr className="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Surathkal Railway Station
                                         </th>
                                         <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900  border-gray-300">
                                             4km
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                    <tr className="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Mangalore Bus Stand
                                         </th>
-                                        <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
+                                        <td className="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
                                             22km
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
-                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                    <tr className="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" className="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
                                             Udupi Bus Stand
                                         </th>
-                                        <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900  border-gray-300">
+                                        <td className="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900  border-gray-300">
                                             35km
                                         </td>
                                     </tr>
