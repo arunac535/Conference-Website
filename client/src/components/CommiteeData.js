@@ -3,35 +3,12 @@ import Heading from "./Heading";
 
 export default function CommiteeData() {
   return (
-    <div className="pt-10 pb-20 bg-gray-200">
-        <Heading text="Organizing Committee" />
-
-      <div className=" ml-5 mt-5 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
-        <h2 className="text-4xl font-bold text-left">Keynote Speakers</h2>
+    <>
+      <div className="py-8">
+        <h1 className="mb-4 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-800 md:text-5xl lg:text-6xl">
+          Organizing Committee
+        </h1>
       </div>
-      <div className="m-10">
-        <div className="relative overflow-x-auto w-11/12 mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            <div className="bg-white p-4 rounded shadow-md">
-              <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prof. R N Patel
-              </div>
-              <div className="text-gray-700">
-                <p className="mb-2 text-lg font-helvetica">Affiliation</p>
-              </div>
-            </div>
-            <div className="bg-white p-4 rounded shadow-md">
-              <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prof. A Bansal
-              </div>
-              <div className="text-gray-700">
-                <p className="mb-2 text-lg font-helvetica">Affiliation required</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       <div className=" ml-5 mt-20 mr-10 mb-5  text-gray-800 py-2 pl-4 text-center">
         <h2 className="text-4xl  font-bold text-left">National Advisory Committee</h2>
@@ -95,7 +72,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Rahul Dev
+                Prof. Rahul Dev
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -194,7 +171,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Lakshman Mahto
+                Prof. Lakshman Mahto
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -205,7 +182,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Thirumurugan Chandrasekaran
+                Prof. Thirumurugan Chandrasekaran
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -216,7 +193,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Ajay Soni
+                Prof. Ajay Soni
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -238,7 +215,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Himmat Singh Kushwaha
+                Prof. Himmat Singh Kushwaha
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -249,7 +226,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Anshul Sharma
+                Prof. Anshul Sharma
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -271,7 +248,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Ramesh Bansal
+                Prof. Ramesh Bansal
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -282,7 +259,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Suryanarayana Doolla
+                Prof. Suryanarayana Doolla
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -293,7 +270,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                B.G. Fernandez
+                Prof. B.G. Fernandez
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -304,7 +281,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Abdul Beige
+                Prof. Abdul Beige
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -315,7 +292,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Lakshmi Prasad Natarajan
+                Prof. Lakshmi Prasad Natarajan
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -326,7 +303,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Mahesh Kumar
+                Prof. Mahesh Kumar
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -337,7 +314,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                G.N. Pillai
+                Prof. G.N. Pillai
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -348,7 +325,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Vishal Kumar
+                Prof. Vishal Kumar
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">
@@ -373,7 +350,7 @@ export default function CommiteeData() {
             {/* <!-- Person 1 --> */}
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Shashi Bhushan Srivastav
+                Dr. Shashi Bhushan Srivastav
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">Michigan</p>
@@ -383,7 +360,7 @@ export default function CommiteeData() {
             {/* <!-- Person 2 --> */}
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                A Sharma
+                Dr. A Sharma
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">NASA, USA</p>
@@ -393,7 +370,7 @@ export default function CommiteeData() {
             {/* <!-- Person 3 --> */}
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Pavan Kumar
+                Dr. Pavan Kumar
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">IMEC, Belgium</p>
@@ -413,7 +390,7 @@ export default function CommiteeData() {
 
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Ashok Bhat
+                Dr. Ashok Bhat
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">Professor, Canada</p>
@@ -423,7 +400,7 @@ export default function CommiteeData() {
             {/* <!-- Person 5 --> */}
             <div className="bg-white p-4 rounded shadow-md">
               <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Jan Kleissl
+                Dr. Jan Kleissl
               </div>
               <div className="text-gray-700">
                 <p className="mb-2 text-lg font-helvetica">Professor, University of California, San Diego, USA</p>
@@ -557,6 +534,6 @@ export default function CommiteeData() {
 
       
 
-    </div>
+    </>
   );
 }
