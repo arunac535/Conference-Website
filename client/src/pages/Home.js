@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../components/Button";
 import Main from "../components/Main";
 import ActivitiesTimeline from "../components/Timeline/ActivitiesTimeline";
 import Footer from "../components/Footer";
@@ -18,9 +17,8 @@ export default function Home() {
         <Logo />
         <Navbar />
         <Slider />
-        <Button text="Brochure" link="" />
       </header>
-      <section className="container mx-auto flex flex-col items-center justify-center">
+      <section className="mx-auto flex flex-col items-center justify-center p-10 bg-gray-200">
         <Main />
         <Tracks />
         <ActivitiesTimeline />

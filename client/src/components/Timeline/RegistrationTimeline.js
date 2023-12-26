@@ -11,10 +11,9 @@ import { BellIcon } from "@heroicons/react/24/solid";
 
 export default function RegistrationTimeline() {
   return (
-    <div className="mt-10 p-10 overflow-auto">
+    <div className="mt-10 p-10">
       <h1 className="text-3xl font-extrabold text-gray-800">Important Dates</h1>
-      <div className="w-[45rem] mt-10">
-        <Timeline>
+        <Timeline className="mt-10 lg:w-[45rem] sm:w-3/4 w-full">
           <TimelineItem className="h-28">
             <TimelineConnector className="!w-[78px]" />
             <TimelineHeader className="relative rounded-xl border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
@@ -96,6 +95,5 @@ export default function RegistrationTimeline() {
           </TimelineItem>
         </Timeline>
       </div>
-    </div>
   );
 }

@@ -1,14 +1,13 @@
 import React from "react";
-import Logo2 from "./Logo2";
+import SponsorsLogo from "./SponsorsLogo";
 import Heading from "./Heading";
 
 export default function Main() {
   return (
-    <div className="container mx-auto flex flex-col items-center justify-center px-4 my-20 mb-20">
-      <Heading text="Society Sponsors" />
-      <Logo2 />
+    <div className="p-2">
+      <SponsorsLogo />
 
-      <div className="mt-40 items-center">
+      <div className="mt-10">
         <Heading text="Conference Overview" />
         <p className="mt-10 text-xl">
           The International Conference on Advancements in Smart, Sustainable

@@ -70,8 +70,8 @@ function Registration() {
 
         <RegistrationTimeline />
 
-        <div className="container mx-auto flex flex-col items-center justify-center">
-          <Card className="mx-12 shadow-xl mt-20">
+        <div className="container mx-auto flex flex-col items-center justify-center m-20">
+          <Card className="mx-12 shadow-xl">
             <table className="min-w-max table-auto text-left rounded-lg border">
               <thead>
                 <tr>
