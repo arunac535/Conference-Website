@@ -8,13 +8,13 @@ import {
 } from "@material-tailwind/react";
 
 import { BellIcon } from "@heroicons/react/24/solid";
-import Heading from "./Heading";
+import Heading from "../Heading";
 
-export default function ActivitiesTimeline() {
+export default function RegistrationTimeline() {
   return (
-    <div className="mt-40">
-      <Heading text="Timeline" />
-      <div className="w-[25rem] mt-10">
+    <div className="mt-10 p-10">
+      <h1 className="text-3xl font-extrabold text-gray-800">Important Dates</h1>
+      <div className="w-[45rem] mt-10">
         <Timeline>
           <TimelineItem className="h-28">
             <TimelineConnector className="!w-[78px]" />
@@ -24,14 +24,14 @@ export default function ActivitiesTimeline() {
               </TimelineIcon>
               <div className="flex flex-col gap-1">
                 <Typography variant="h6" color="blue-gray">
-                  Abstract Submission Deadline
+                  Last Date for paper submission
                 </Typography>
                 <Typography
                   variant="small"
                   color="gray"
                   className="font-normal"
                 >
-                  January 15, 2024
+                  January 30, 2024
                 </Typography>
               </div>
             </TimelineHeader>
@@ -44,7 +44,7 @@ export default function ActivitiesTimeline() {
               </TimelineIcon>
               <div className="flex flex-col gap-1">
                 <Typography variant="h6" color="blue-gray">
-                  Full Paper Submission Deadline
+                  Notification of Acceptance
                 </Typography>
                 <Typography
                   variant="small"
@@ -64,14 +64,14 @@ export default function ActivitiesTimeline() {
               </TimelineIcon>
               <div className="flex flex-col gap-1">
                 <Typography variant="h6" color="blue-gray">
-                  Notification of Acceptance
+                  Last Date for camera ready paper
                 </Typography>
                 <Typography
                   variant="small"
                   color="gray"
                   className="font-normal"
                 >
-                  March 1, 2024
+                  February 25, 2024
                 </Typography>
               </div>
             </TimelineHeader>
