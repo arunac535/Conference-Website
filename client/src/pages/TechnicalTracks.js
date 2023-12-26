@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../components/Logo'
 import Navbar from '../components/Navbar/Navbar';
+import Heading from '../components/Heading';
 
 
 function TechnicalTracks() {
@@ -8,11 +9,11 @@ function TechnicalTracks() {
     <div>
       <Logo/>
       <Navbar/>
-          <section class="py-16 px-4 text-center flex-grow flex-col justify-between">
+          <section class="py-10 px-4 text-center flex-grow flex-col justify-between bg-gray-200">
               <div class="max-w-screen-xl mx-auto">
-                <h2 class="text-4xl font-extrabold mb-8">Tracks</h2>
+                <Heading text="Tracks" />
 
-                <ul class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
                   <li class="bg-white p-8 rounded-lg shadow-xl  text-gray-800">
                     <h3 class="text-2xl font-bold mb-4 text-indigo-600">Track 1</h3>
                     <p class="text-xl font-bold mb-4">

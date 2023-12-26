@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
+import Heading from "../components/Heading";
 
 function Contact() {
   return (
@@ -12,13 +13,12 @@ function Contact() {
         <Navbar />
       </header>
       <main>
-        <div className="flex-grow">
-          <div className="w-3/4 mx-auto py-4 mt-4">
-            <div className="p-8 rounded shadow-md">
+        <div className="flex-grow pt-10 pb-20 bg-gray-200">
+          <Heading text="Contact Us" />
+          <div className="w-3/4 mx-auto py-4 mt-10 rounded bg-gray-100">
+            <div className="p-8 rounded">
               <div className="my-5 text-center">
-                <h1 className="mb-20 text-6xl font-bold text-gray-800">
-                  Contact Us
-                </h1>
+                
                 <h2 className="mb-10 text-4xl font-bold text-gray-800">
                   General Chairs
                 </h2>
