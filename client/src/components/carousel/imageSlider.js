@@ -1,8 +1,9 @@
-import First from '../../assets/img1.jpg'
-import Second from '../../assets/img2.jpg'
-import Third from '../../assets/img3 (1).jpg'
-import Fourth from '../../assets/img4.jpg'
-import Fifth from '../../assets/img6.jpg'
+import First from '../../assets/nitk.jpg'
+import Second from '../../assets/eee_dept.jpg'
+import Third from '../../assets/MB.jpg'
+import Fourth from '../../assets/beach.jpg'
+import Fifth from '../../assets/lhc.jpeg'
+import Sixth from '../../assets/fd.webp'
 
 export default [{
   title:'First Slider Image',
@@ -24,11 +25,16 @@ export default [{
   description: 'This is the Fourth slider image',
   urls:Fourth
 },
+
 {
   title:'Fifth Slider Image',
   description: 'This is the Fourth slider image',
   urls:Fifth
 },
 
-
+{
+  title:'Sixth Slider Image',
+  description: 'This is the Fourth slider image',
+  urls:Sixth
+},
 ]
