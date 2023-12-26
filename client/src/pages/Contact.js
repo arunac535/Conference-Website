@@ -29,7 +29,7 @@ function Contact() {
                     </p>
                   </div>
                   <div className="text-center">
-                    <p className="font-bold text-xl mb-2 tracking-normal">P.Parthiban</p>
+                    <p className="font-bold text-xl mb-2 tracking-normal">A. Karthikeyan</p>
                   </div>
                 </div>
               </div>
