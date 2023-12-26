@@ -14,7 +14,6 @@ export default function About() {
         <div className="my-8 text-center ">
           <div className="container mx-auto">
             <h2 className="text-4xl font-extrabold mb-8 text-gray-700">
-              About NITK
             </h2>
             <p className="text-justify text-xl font-arial mb-10">
               National Institute of Technology Karnataka, Surathkal is located
@@ -38,7 +37,7 @@ export default function About() {
                 <img
                   src={nitkMB}
                   alt="An image of the Main Building of NITK"
-                  className="h-auto max-h-full max-w-full"
+                  className="h-auto max-h-full max-w-full shadow-xl"
                 />
               </div>
               <div className="flex justify-center">
@@ -92,7 +91,7 @@ export default function About() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="flex justify-center">
-                <p class="max-w-lg p-4 bg-white shadow-md rounded-md text-gray-700">
+                <p class="max-w-lg p-4 bg-white shadow-xl rounded-md text-gray-700">
                   The EEE Department at NIT Karnataka, established in 1960, has
                   evolved to offer a specialized postgraduate program in Power
                   and Energy Systems since 1992, and Ph.D. programs since 2003.
@@ -131,9 +130,10 @@ export default function About() {
               <img
                 src={mlr}
                 alt="Mangalore Image"
+                className="showdow-xl"
               />
               <div className="flex justify-center">
-                <p class="max-w-lg p-4 bg-white shadow-md rounded-md text-gray-700">
+                <p class="max-w-lg p-4 bg-white shadow-xl rounded-md text-gray-700">
                   Mangalore, a coastal city in the southwestern state of
                   Karnataka, India, is renowned for its picturesque landscapes,
                   vibrant culture, and historical significance. Nestled between
@@ -183,38 +183,70 @@ export default function About() {
             <div className="text-3xl mt-5 text-center font-extrabold text-gray-800">
               Distance from surrounding stations and airport
             </div>
-            <div className="align-content: center mt-5 flex fex">
-              <table className="align-content : center">
-                <tr>
-                  <th className="font-extrabold">Destination</th>
-                  <th className="font-extrabold">Distance</th>
-                </tr>
-                <tr>
-                  <td>Mangalore Airport</td>
-                  <td>20 km</td>
-                </tr>
-                <tr>
-                  <td>Mangalore Central Railway Station</td>
-                  <td>21 km</td>
-                </tr>
-                <tr>
-                  <td>Mangalore Junction Railway Station</td>
-                  <td>25 km</td>
-                </tr>
-                <tr>
-                  <td>Surathkal Railway Station</td>
-                  <td>4 km</td>
-                </tr>
-                <tr>
-                  <td>Mangalore Bus Stand</td>
-                  <td>22 km</td>
-                </tr>
-                <tr>
-                  <td>Udupi Bus Stand</td>
-                  <td>35 km</td>
-                </tr>
-              </table>
-            </div>
+            <div class="relative overflow-x-auto">
+                            <table class="md:mx-auto text-lg text-left text-gray-500 mt-5 border border-6">
+                                <thead class="text-sm md:text-base text-gray-700 uppercase bg-gray-300">
+                                    <tr>
+                                        <th scope="col" class="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
+                                            Destination
+                                        </th>
+                                        <th scope="col" class="px-4 md:px-6 py-3 font-bold border border-6 border-gray-400 bg-gray-200">
+                                            Distance
+                                        </th>                                
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Mangalore Airport
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
+                                            20km
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Mangalore Central Railway Station
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
+                                            21km
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Mangalore Junction Railway Station
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900 border-gray-300">
+                                            25km
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Surathkal Railway Station
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900  border-gray-300">
+                                            4km
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Mangalore Bus Stand
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6  font-medium text-gray-900 border-gray-300">
+                                            22km
+                                        </td>
+                                    </tr>
+                                    <tr class="bg-gray-50 border-b hover:bg-gray-100">
+                                        <th scope="row" class="px-4 md:px-6 py-4 font-medium text-gray-900 whitespace-nowrap border border-6 border-gray-300">
+                                            Udupi Bus Stand
+                                        </th>
+                                        <td class="px-4 md:px-6 py-4 border border-6 font-medium text-gray-900  border-gray-300">
+                                            35km
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
           </div>
         </div>
       </div>

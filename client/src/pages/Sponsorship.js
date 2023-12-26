@@ -3,6 +3,11 @@ import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import Heading from "../components/Heading";
 import Footer from "../components/Footer";
+import { Card, Typography } from "@material-tailwind/react";
+
+const TABLE_HEAD = ["Category", "Fee", "Entitlement"];
+
+
 
 const data = [
   {
@@ -80,31 +85,51 @@ function Sponsorship() {
         <Logo />
         <Navbar />
       </header>
-      <Heading text="Sponsors" />
-      <main className="flex flex-col justify-center mt-20 p-10">
-        <table className="border border-black table-fixed">
+      <Heading text="Sponsors"/>
+    <Card className="h-full w-500 pt-4  mx-12 shadow-xl">
+      <table className="w-full min-w-max table-auto text-left rounded-lg border">
+        <thead>
           <tr>
-            <th className="border border-black font-extrabold text-center">Category</th>
-            <th className="border border-black font-extrabold text-center">Fee</th>
-            <th className="border border-black font-extrabold text-center">Entitlements</th>
+            {TABLE_HEAD.map((head) => (
+              <th key={head} className="h-16  bg-blue-gray-100 p-4 ">
+                <Typography
+                  variant="small"
+                  color="blue-gray"
+                  className="font-normal leading-none opacity-70"
+                >
+                  {head}
+                </Typography>
+              </th>
+            ))}
           </tr>
-          {data.map((val, key) => {
-            return (
-              <tr key={key} className="border border-black">
-                <td className="border border-black">{val.category}</td>
-                <td className="border border-black">{val.fee}</td>
-                <td className="border border-black">
-                  <ul className="border border-black">
-                    {Object.keys(val.entitlement).map((entKey, entIndex) => (
-                      <li key={entIndex}>{val.entitlement[entKey]}</li>
-                    ))}
-                  </ul>
-                </td>
-              </tr>
-            );
-          })}
-        </table>
-      </main>
+        </thead>
+        <tbody>
+          {data.map(({ category, fee, entitlement }) => (
+            <tr key={category} className="even:bg-blue-gray-50/50">
+              <td className="p-4">
+                <Typography variant="small" color="blue-gray" className="font-normal">
+                  {category}
+                </Typography>
+              </td>
+              <td className="p-4">
+                <Typography variant="small" color="blue-gray" className="font-normal">
+                  {fee}
+                </Typography>
+              </td>
+              <td className="p-4">
+                <Typography variant="small" color="blue-gray" className="font-normal">
+                  <ul >
+                      {Object.keys(entitlement).map((entKey, entIndex) => (
+                        <li key={entIndex}>{entitlement[entKey]}</li>
+                      ))}
+                    </ul>
+                </Typography>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Card>
       <footer>
         <Footer />
       </footer>
