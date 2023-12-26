@@ -65,12 +65,10 @@ function Registration() {
         <Navbar />
       </header>
 
-      <main className="pt-10 pb-20  bg-gray-200 ">
+      <main className="pt-10 pb-20  bg-gray-200 flex flex-col items-center justify-center overflow-auto">
         <Heading text="Registration" />
 
-        <div className="container mx-auto flex flex-col items-center justify-center">
-          <RegistrationTimeline />
-        </div>
+        <RegistrationTimeline />
 
         <div className="container mx-auto flex flex-col items-center justify-center">
           <Card className="mx-12 shadow-xl mt-20">

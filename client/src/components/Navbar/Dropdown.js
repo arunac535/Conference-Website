@@ -10,12 +10,6 @@ const MenuItems = [
   },
 
   {
-    title: "Call For Papers",
-    path: "/callforpapers",
-    cName: "dropdown-link",
-  },
-
-  {
     title: "Papers Submission",
     path: "/paperssubmission",
     cName: "dropdown-link",

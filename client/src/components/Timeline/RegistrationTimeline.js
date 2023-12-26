@@ -8,11 +8,10 @@ import {
 } from "@material-tailwind/react";
 
 import { BellIcon } from "@heroicons/react/24/solid";
-import Heading from "../Heading";
 
 export default function RegistrationTimeline() {
   return (
-    <div className="mt-10 p-10">
+    <div className="mt-10 p-10 overflow-auto">
       <h1 className="text-3xl font-extrabold text-gray-800">Important Dates</h1>
       <div className="w-[45rem] mt-10">
         <Timeline>

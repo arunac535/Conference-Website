@@ -1,82 +1,9 @@
 import React from "react";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
-import Heading from "../components/Heading";
 import Footer from "../components/Footer";
-import { Card, Typography } from "@material-tailwind/react";
-
-const TABLE_HEAD = ["Category", "Fee", "Entitlement"];
 
 
-
-const data = [
-  {
-    category: "Principal Sponsor",
-    fee: "INR 10.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "12 free delegates",
-      4: "Company logo as Principal sponsor on the website",
-      5: "Full page colour advertisement in the proceedings",
-    },
-  },
-
-  {
-    category: "Co-Sponsor",
-    fee: "INR 8.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "10 free delegates",
-      4: "Company logo as Co-sponsor on the website",
-    },
-  },
-
-  {
-    category: "Platinum Sponsor",
-    fee: "INR 6.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "8 free delegates",
-      4: "Company logo as Platinum sponsor on the website",
-    },
-  },
-
-  {
-    category: "Gold Sponsor",
-    fee: "INR 4.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "4 free delegates",
-      4: "Company logo as Gold sponsor on the website",
-    },
-  },
-
-  {
-    category: "Dinner Sponsor",
-    fee: "INR 4.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "4 free delegates",
-      4: "Company logo as Dinner sponsor on the website",
-    },
-  },
-
-  {
-    category: "Lunch Sponsor",
-    fee: "INR 4.0 Lakhs",
-    entitlement: {
-      1: "Display of logo at the conference backdrop",
-      2: "Display of banners at the conference venue",
-      3: "4 free delegates",
-      4: "Company logo as Lunch sponsor on the website",
-    },
-  },
-];
 
 function Sponsorship() {
   return (
@@ -103,7 +30,7 @@ function Sponsorship() {
     
       <div class="max-w-7xl mx-auto px-4 overflow-x-auto">
         <table class="table table-striped table-hover border-separate border-gray-200 rounded-lg shadow-md sm:w-full md:w-full lg:w-full overflow-x-scroll mb-4">
-          <thead class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-t-2xl shadow-lg">
+          <thead class="bg-gradient-to-br from-gray-800 to-gray-700 text-white rounded-t-2xl shadow-lg">
             <tr class="text-center">
               <th class="text-2xl font-semibold font-helvetica py-4 pl-4 pr-2" colspan="2">
                 Conference Exhibition Rates(18th Dec. 2024 to 21st Dec. 2024
@@ -154,7 +81,7 @@ function Sponsorship() {
     
       <div class="max-w-7xl mx-auto px-4 overflow-x-auto">
         <table class="table table-striped table-hover border-separate border-gray-200 rounded-lg shadow-md sm:w-full md:w-full lg:w-full overflow-x-scroll mb-4">
-          <thead class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-t-2xl shadow-lg">
+          <thead class="bg-gradient-to-br from-gray-800 to-gray-700 text-white rounded-t-2xl shadow-lg">
             <tr class="text-center">
               <th class="text-2xl font-semibold font-helvetica py-4 pl-4 pr-2">
                 SN
@@ -212,7 +139,7 @@ function Sponsorship() {
     
       <div class="max-w-7xl mx-auto px-4 overflow-x-auto">
         <table class="table table-striped table-hover border-separate border-gray-200 rounded-lg shadow-md sm:w-full md:w-full lg:w-full overflow-x-scroll mb-4">
-          <thead class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-t-2xl shadow-lg">
+          <thead class="bg-gradient-to-br from-gray-800 to-gray-700 text-white rounded-t-2xl shadow-lg">
             <tr class="text-center">
               <th class="text-2xl font-semibold font-helvetica py-4 pl-4 pr-2 sm:text-lg md:text-xl">
                 SN
@@ -276,7 +203,7 @@ function Sponsorship() {
               <td class="text-center font-bold py-4">8.0 Lakhs</td>
             </tr>
             <tr>
-              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">2.</td>
+              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">3.</td>
               <td class="text-center font-bold py-4">Platinum Sponsor</td>
               <td class="text-center font-semibold py-4">1</td>
               <td class="text-center py-4">
@@ -296,7 +223,7 @@ function Sponsorship() {
               <td class="text-center font-bold py-4">6.0 Lakhs</td>
             </tr>
             <tr>
-              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">2.</td>
+              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">4.</td>
               <td class="text-center font-bold py-4">Gold Sponsor</td>
               <td class="text-center font-semibold py-4">1</td>
               <td class="text-center py-4">
@@ -316,7 +243,7 @@ function Sponsorship() {
               <td class="text-center font-bold py-4">4.0 Lakhs</td>
             </tr>
             <tr>
-              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">2.</td>
+              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">5.</td>
               <td class="text-center font-bold py-4">Dinner Sponsor</td>
               <td class="text-center font-semibold py-4">1</td>
               <td class="text-center py-4">
@@ -336,7 +263,7 @@ function Sponsorship() {
               <td class="text-center font-bold py-4">4.0 Lakhs</td>
             </tr>
             <tr>
-              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">2.</td>
+              <td class="text-center font-semibold sm:text-lg md:text-xl py-4">6.</td>
               <td class="text-center font-bold py-4">Lunch Sponsor</td>
               <td class="text-center font-semibold py-4">1</td>
               <td class="text-center py-4">
