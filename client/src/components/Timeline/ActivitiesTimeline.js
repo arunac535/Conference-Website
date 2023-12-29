@@ -12,9 +12,9 @@ import Heading from "../Heading";
 
 export default function ActivitiesTimeline() {
   return (
-    <div className="mt-40">
+    <div className="mt-40 mx-2">
       <Heading text="Timeline" />
-      <div className="mt-10 lg:w-[45rem] w-[25rem]">
+      <div className="mt-10 lg:w-[45rem] w-[24rem]">
         <Timeline>
           <TimelineItem className="h-28">
             <TimelineConnector className="!w-[78px]" />

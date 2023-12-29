@@ -27,9 +27,9 @@ const tracks = [
 
 export default function Tracks() {
   return (
-    <section className="mt-40 container mx-auto flex flex-col items-center justify-center py-10">
+    <section className="mt-40 container flex flex-col items-center justify-center py-10">
       <Heading text="Tracks" />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 m-10">
         {tracks.map((track, index) => (
           <div
             key={index}
@@ -39,7 +39,7 @@ export default function Tracks() {
               Track {index + 1}:
             </span>
             <br />
-            <span className="font-bold text-lg">{track.title}</span>
+            <span className="font-bold text-md md:text-lg">{track.title}</span>
           </div>
         ))}
       </div>

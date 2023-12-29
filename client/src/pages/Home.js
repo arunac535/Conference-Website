@@ -9,7 +9,7 @@ import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import SponsorsLogo from "../components/SponsorsLogo";
 
-const conferenceDate = "2024-01-06T23:59:59";
+const conferenceDate = "2024-03-15T23:59:59";
 
 export default function Home() {
   return (

@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <div className="container flex flex-col items-center justify-center">
       <Heading text="Conference Overview" />
-      <p className="mt-10 text-xl">
+      <p className="my-10 text-md md:text-xl px-2 mx-10">
         The International Conference on Advancements in Smart, Sustainable
         Energy Sources, Technologies, and Systems (ASSETS) aims to bring
         together researchers, scientists, engineers, and industry professionals
