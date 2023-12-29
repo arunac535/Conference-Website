@@ -1,6 +1,7 @@
 import React from "react";
+
 import bosch from "../assets/bosch.png";
-import ABB from "../assets/abb.jpg";
+import abb from "../assets/abb.jpg";
 import opal from "../assets/opal.jpeg";
 import ds from "../assets/ds.jpeg";
 import txt from "../assets/textr.png";
@@ -9,58 +10,76 @@ import ntpc from "../assets/ntpc.png";
 import benn from "../assets/benn.jpeg";
 import udupi from "../assets/udupi.jpg";
 import seg from "../assets/seg.png";
+
 import { Link } from "react-router-dom";
 import Heading from "./Heading";
 
+const logos = [
+  {
+    link: "https://www.bosch.in/",
+    src: bosch,
+  },
+  {
+    link: "https://new.abb.com/indian-subcontinent",
+    src: abb,
+  },
+  {
+    link: "https://www.opal-rt.com/",
+    src: opal,
+  },
+  {
+    link: "https://www.dspace.com/en/pub/home.cfm",
+    src: ds,
+  },
+  {
+    link: "https://www.textronic.com/",
+    src: txt,
+  },
+  {
+    link: "https://mescom.karnataka.gov.in/english",
+    src: mescom,
+  },
+  {
+    link: "https://www.ntpc.co.in/",
+    src: ntpc,
+  },
+  {
+    link: "https://www.bennelec.com/",
+    src: benn,
+  },
+  {
+    link: "https://www.adanipower.com/operational-power-plants/udupi-karnataka",
+    src: udupi,
+  },
+  {
+    link: "https://www.seg-automotive.com/",
+    src: seg,
+  },
+];
+
 export default function SponsorsLogo() {
   return (
-    <>
+    <div className="container my-10">
       <Heading text="Society Sponsors" />
-      <div className="grid grid-cols-4 grid-flow-row gap-4">
-        <Link to="https://www.bosch.in/">
-          <img src={bosch} alt="BOSCH_LOGO" className="h-20 md:h-40 mr-10 ml-20" />
-        </Link>
 
-        <Link to="https://new.abb.com/indian-subcontinent">
-          <img src={ABB} alt="ABB_LOGO" className="h-20 md:h-40 mr-10 ml-10" />
-        </Link>
-
-        <Link to="https://www.opal-rt.com/">
-          <img
-            src={opal}
-            alt="OPAL-RT_LOGO"
-            className="h-20 md:h-40 ml-20 mr-10"
-          />
-        </Link>
-
-        <Link to="https://www.dspace.com/en/pub/home.cfm">
-          <img src={ds} alt="DSPACE_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://www.textronic.com/">
-          <img src={txt} alt="Textronics_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://mescom.karnataka.gov.in/english">
-          <img src={mescom} alt="MESCOM_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://www.ntpc.co.in/">
-          <img src={ntpc} alt="NTPC_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://www.bennelec.com/">
-          <img src={benn} alt="BENN_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://www.seg-automotive.com/">
-          <img src={seg} alt="SEG_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
-
-        <Link to="https://www.adanipower.com/operational-power-plants/udupi-karnataka">
-          <img src={udupi} alt="SEG_LOGO" className="h-20 md:h-40 ml-10 mr-20" />
-        </Link>
+      <div className="flex justify-center my-10">
+        <div className="grid grid-cols-5 my-10 mx-10 gap-10">
+          {logos.map((logo, index) => (
+            <div
+              className="w-[5rem] h-[5rem] md:w-[10rem] md:h-[10rem]"
+              key={index}
+            >
+              <Link to={logo.link}>
+                <img
+                  src={logo.src}
+                  alt="LOGO"
+                  className="w-[5rem] h-[5rem] md:w-[10rem] md:h-[10rem]"
+                />
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   );
 }

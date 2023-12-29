@@ -14,7 +14,8 @@ export default function ActivitiesTimeline() {
   return (
     <div className="mt-40">
       <Heading text="Timeline" />
-        <Timeline className="mt-10 lg:w-[45rem] sm:w-3/4 w-full">
+      <div className="mt-10 lg:w-[45rem] w-[25rem]">
+        <Timeline>
           <TimelineItem className="h-28">
             <TimelineConnector className="!w-[78px]" />
             <TimelineHeader className="relative rounded-xl border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
@@ -95,6 +96,7 @@ export default function ActivitiesTimeline() {
             </TimelineHeader>
           </TimelineItem>
         </Timeline>
+      </div>
     </div>
   );
 }

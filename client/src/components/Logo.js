@@ -5,13 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function Logo() {
   return (
-    <div>
+    <div className="w-[6rem]">
       <Link to="https://www.nitk.ac.in/">
-        <img
-          src={nitk}
-          alt="NITK_LOGO"
-          className="object-fit h-20"
-        />
+        <img src={nitk} alt="NITK_LOGO" />
       </Link>
     </div>
   );

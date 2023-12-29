@@ -26,7 +26,7 @@ function Accomodation() {
           <Card className="mt-10 bg-gray-100 shadow-none">
             <List>
               <ListItem
-                className="font-extrabold text-md"
+                className="font-extrabold text-md hover:text-blue-600"
                 onClick={() =>
                   handleClick(
                     "https://drive.google.com/file/d/12Usef-7C5P4kcfNxjfwgclhYAvPUmYgh/view"
@@ -36,11 +36,9 @@ function Accomodation() {
                 1. The Ocean Pearl, Mangalore
               </ListItem>
               <ListItem
-                className="font-extrabold text-md"
+                className="font-extrabold text-md hover:text-blue-600"
                 onClick={() =>
-                  handleClick(
-                    "http://www.hotelsaisuraj.com/tariff.html"
-                  )
+                  handleClick("http://www.hotelsaisuraj.com/tariff.html")
                 }
               >
                 2. Hotel Sai Suraj, Surathkal (NITK members 10% discounts)

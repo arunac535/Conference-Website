@@ -65,14 +65,14 @@ function Registration() {
         <Navbar />
       </header>
 
-      <main className="pt-10 pb-20  bg-gray-200 flex flex-col items-center justify-center overflow-auto">
+      <main className="pt-10 pb-20  bg-gray-200 flex flex-col items-center justify-center">
         <Heading text="Registration" />
 
         <RegistrationTimeline />
 
-        <div className="container mx-auto flex flex-col items-center justify-center m-20">
+        <div className="container mx-auto flex flex-col items-center justify-center mt-20">
           <Card className="mx-12 shadow-xl">
-            <table className="min-w-max table-auto text-left rounded-lg border">
+            <table className="table-auto text-left rounded-lg border">
               <thead>
                 <tr>
                   {TABLE_HEAD.map((head) => (
