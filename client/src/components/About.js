@@ -87,7 +87,7 @@ export default function About() {
             About Electrical and Electronics Engineering Department
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <p className="p-4 bg-gray-100 shadow-xl rounded-md text-gray-700 text-left text-base font-semibold">
+            <p className="p-4 bg-gray-100 shadow-xl rounded-md text-gray-700 text-left text-[0.9rem] font-semibold">
               The EEE Department at NIT Karnataka, established in 1960, has
               evolved to offer a specialized postgraduate program in Power and
               Energy Systems since 1992, and Ph.D. programs since 2003. The
@@ -160,7 +160,7 @@ export default function About() {
               NITK is located in Surathkal, which is very close to a big city
               like Mangalore, making it very easy to reach NITK!
             </div>
-            <p className="mt-10 text-base font-bold text-gray-700">
+            <p className="mt-10 font-bold text-gray-700">
               Owing to a National Highway passing right in front of the college,
               all intercity and interstate buses make sure to stop right at the
               gate of the college as well. Thanks to great connectivity with
