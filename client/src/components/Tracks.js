@@ -4,10 +4,10 @@ import Heading from "../components/Heading";
 export default function Tracks() {
   return (
     <div>
-      <section class="my-10 p-12 mx-5 text-center flex-grow flex-col justify-between">
+      <section class="my-10 p-2 mx-10 text-center flex-grow flex-col justify-between">
         <Heading text="Tracks" />
 
-        <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
+        <ul class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-20">
           <li class="bg-white p-8 rounded-lg shadow-xl  text-gray-800">
             <h3 class="text-2xl font-bold mb-4 text-indigo-600">Track 1</h3>
             <p class="text-xl font-bold mb-4">Renewable Energy Sources:</p>
