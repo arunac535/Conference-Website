@@ -12,7 +12,9 @@ import { BellIcon } from "@heroicons/react/24/solid";
 export default function RegistrationTimeline() {
   return (
     <div className="mt-10 p-10">
-      <h1 className="text-3xl font-extrabold text-gray-800">Important Dates</h1>
+      <h1 className="text-3xl text-center font-extrabold text-gray-800">
+        Important Dates
+      </h1>
       <Timeline className="mt-10 lg:w-[45rem] w-[25rem]">
         <TimelineItem className="h-28">
           <TimelineConnector className="!w-[78px]" />
