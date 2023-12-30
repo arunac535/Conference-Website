@@ -11,7 +11,7 @@ function Committee() {
         <Logo />
         <Navbar />
       </header>
-      <main>
+      <main className="bg-gray-200">
         <CommiteeData />
         <Footer />
       </main>
