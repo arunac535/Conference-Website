@@ -70,15 +70,15 @@ function Registration() {
 
         <RegistrationTimeline />
 
-        <div className="mx-auto mt-20 overflow-x-auto px-10">
-          <Card className="mx-auto shadow-xl">
+        <div className="mx-5 mt-20">
+          <Card className="shadow-xl">
             <table className="text-left rounded-lg border table-auto">
               <thead>
                 <tr>
                   {TABLE_HEAD.map((head) => (
                     <th
                       key={head}
-                      className="text-md font-bold bg-blue-gray-100 p-4"
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 p-4"
                     >
                       <Typography
                         variant="small"
