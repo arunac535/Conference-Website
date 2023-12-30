@@ -50,21 +50,30 @@
     width:80%;
     min-height:150px;
     color:#ffffff;
-    font-size: 35px;
-    font-weight: bold;
+    font-weight: 800;
     text-align:center;
     background-color: rgba(0,0,0,0.3);
 }
 
-.slide-sub-title{
-    width:80%;
-    color:white;
-    font-size: 25px;
-    font-weight: 400;
-    text-align:center;
-    left: 10%;
-    margin-bottom: 10px;
+@media screen and (max-width: 768px) {
+    .slide-title {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .slide-title {
+        font-size: 30px; /* Adjust font size for medium-sized screens */
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .slide-title {
+        font-size: 40px; /* Default font size for larger screens */
+    }
+}
+
+
 
 .slide-text{
     top:65%;

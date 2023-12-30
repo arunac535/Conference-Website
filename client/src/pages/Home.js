@@ -7,10 +7,11 @@ import Counter from "../components/Counter/counter-logic";
 import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
+import SponsorsLogo from "../components/SponsorsLogo";
+
+const conferenceDate = "2024-03-15T23:59:59";
 
 export default function Home() {
-  const conferenceDate = "2024-01-06T23:59:59";
-
   return (
     <>
       <header>
@@ -18,7 +19,8 @@ export default function Home() {
         <Navbar />
         <Slider />
       </header>
-      <section className="mx-auto flex flex-col items-center justify-center p-10 bg-gray-200">
+      <section className="w-full flex flex-col items-center justify-center bg-gray-200">
+        <SponsorsLogo />
         <Main />
         <Tracks />
         <ActivitiesTimeline />
