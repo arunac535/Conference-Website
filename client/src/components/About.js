@@ -14,19 +14,7 @@ export default function About() {
           <div className="container mx-auto">
             <h2 className="text-4xl font-extrabold mb-8 text-gray-700"></h2>
             <p className="text-justify text-xl font-arial mb-10">
-              National Institute of Technology Karnataka, Surathkal is located
-              in Mangalore City, Karnataka State, India. The Institute was
-              established as Karnataka Regional Engineering College (KREC) in
-              1960, and upgraded as National Institute of Technology Karnataka
-              (NITK) in 2002. Mangalore is the headquarters of the coastal
-              district of Dakshina Kannada, and boasts an important centre of
-              education, business and trade in the state. Sri. U. Srinivasa
-              Mallya, a visionary and a philanthropist, contributed immensely to
-              the development of the coastal region of Karnataka, and his effort
-              towards establishment of KREC (now NITK) is the most significant
-              one. In recognition of his role as the founder and architect of
-              the institute, the campus premises is named after him as
-              Srinivasnagar.
+            Nestled in the coastal city of Mangalore in the Indian state of Karnataka lies the esteemed National Institute of Technology Karnataka, Surathkal. This illustrious institute was originally established as Karnataka Regional Engineering College (KREC) back in 1960 but was later upgraded and renamed to NITK in 2002. Mangalore, the commercial and educational hub of the Dakshina Kannada district, is a thriving centre of trade, business, and education in the state. The institute owes its existence to the contributions of Sri. U. Srinivasa Mallya was a philanthropist and visionary who played a pivotal role in developing the coastal region of Karnataka. In fact, his efforts towards the establishment of KREC (now NITK) were the most significant. As a tribute to his contribution, the campus premises have been named Srinivasnagar after him.
             </p>
 
             {/* Image and video section */}
@@ -88,23 +76,13 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <p className="p-4 bg-gray-100 shadow-xl rounded-md text-gray-700 text-left text-[0.9rem] font-semibold">
-              The EEE Department at NIT Karnataka, established in 1960, has
-              evolved to offer a specialized postgraduate program in Power and
-              Energy Systems since 1992, and Ph.D. programs since 2003. The
-              department boasts cutting-edge laboratories and a dynamic faculty
-              engaged in teaching, research, and industry collaboration. Key
-              research areas include Smart Grid Operation & Control, Power
-              Electronics & Renewable Energy, Biomedical Imaging & Signal
-              Processing, Electric Vehicle & Wireless Power Transfer, and
-              Artificial Intelligence & Machine Learning. Faculty accolades
-              include the Young Faculty Research Fellowship and the POSOCO
-              award. The department actively pursues externally funded research
-              projects from entities like DST, SERB, MNRE, CPRI, DELL, CDAC,
-              Infineon, Texas Instruments, Schneider Electric, L&T, Robert
-              Bosch, and MeitY. Additionally, the department undertakes
-              consultancy projects, resulting in numerous publications,
-              including patents, in international journals and conferences
-              throughout the year.
+            The Department of Electrical and Electronics Engineering (EEE) plays a pivotal role in the National Institute of Technology Karnataka (NITK), having been a core department since the inception of the erstwhile Karnataka Regional Engineering College (KREC) in 1960. The department offers a comprehensive range of courses including an undergraduate programme, a postgraduate programme in Power and Energy Systems, and research programmes leading to doctoral degrees (Ph.D). 
+
+The department boasts state-of-the-art laboratories that complement the coursework and enhance research potential. The faculty is a dynamic group with extensive experience in academics, research, and industry, dedicated to the teaching-learning process, and actively engaged in cutting-edge R&D activities. The research areas include Smart Grid Operation & Control, Power Electronics & Renewable Energy, Biomedical Imaging & Signal Processing, Electric Vehicle & Wireless Power Transfer, Artificial Intelligence & Machine Learning, among others. 
+
+The faculty has received various recognitions such as Young Faculty Research Fellowship and POSOCO award for research publications. The department has undertaken various externally sponsored research projects funded by DST, SERB, MNRE, CPRI, DELL, CDAC, Infineon, Texas Instruments, Schneider Electric, L&T, Robert Bosch, MeitY, and others. The department also undertakes numerous consultancy projects from industry and other organizations. 
+
+Throughout the year, the department's academicians and students publish a good number of publications, including patents, international journals & conferences, showcasing their dedication and hard work towards the field.
             </p>
 
             <img
