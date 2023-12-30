@@ -23,7 +23,10 @@ export default function ActivitiesTimeline() {
                 <BellIcon className="h-5 w-5" />
               </TimelineIcon>
               <div className="flex flex-col gap-1">
-                <Typography variant="h6" color="blue-gray">
+                <Typography
+                  className="font-bold text-sm md:text-base"
+                  color="blue-gray"
+                >
                   Abstract Submission Deadline
                 </Typography>
                 <Typography
@@ -43,7 +46,10 @@ export default function ActivitiesTimeline() {
                 <BellIcon className="h-5 w-5" />
               </TimelineIcon>
               <div className="flex flex-col gap-1">
-                <Typography variant="h6" color="blue-gray">
+                <Typography
+                  className="font-bold text-sm md:text-base"
+                  color="blue-gray"
+                >
                   Full Paper Submission Deadline
                 </Typography>
                 <Typography
@@ -63,7 +69,10 @@ export default function ActivitiesTimeline() {
                 <BellIcon className="h-5 w-5" />
               </TimelineIcon>
               <div className="flex flex-col gap-1">
-                <Typography variant="h6" color="blue-gray">
+                <Typography
+                  className="font-bold text-sm md:text-base"
+                  color="blue-gray"
+                >
                   Notification of Acceptance
                 </Typography>
                 <Typography
@@ -82,7 +91,10 @@ export default function ActivitiesTimeline() {
                 <BellIcon className="h-5 w-5" />
               </TimelineIcon>
               <div className="flex flex-col gap-1">
-                <Typography variant="h6" color="blue-gray">
+                <Typography
+                  className="font-bold text-sm md:text-base"
+                  color="blue-gray"
+                >
                   Conference Dates
                 </Typography>
                 <Typography

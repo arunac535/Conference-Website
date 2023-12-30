@@ -15,7 +15,7 @@ export default function RegistrationTimeline() {
       <h1 className="text-3xl text-center font-extrabold text-gray-800">
         Important Dates
       </h1>
-      <Timeline className="mt-10 lg:w-[45rem] w-[25rem]">
+      <Timeline className="mt-10 lg:w-[45rem] w-[22rem]">
         <TimelineItem className="h-28">
           <TimelineConnector className="!w-[78px]" />
           <TimelineHeader className="relative rounded-xl border border-blue-gray-50 bg-white py-3 pl-4 pr-8 shadow-lg shadow-blue-gray-900/5">
@@ -23,7 +23,10 @@ export default function RegistrationTimeline() {
               <BellIcon className="h-5 w-5" />
             </TimelineIcon>
             <div className="flex flex-col gap-1">
-              <Typography variant="h6" color="blue-gray">
+              <Typography
+                className="font-bold text-sm md:text-base"
+                color="blue-gray"
+              >
                 Last Date for paper submission
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
@@ -39,7 +42,10 @@ export default function RegistrationTimeline() {
               <BellIcon className="h-5 w-5" />
             </TimelineIcon>
             <div className="flex flex-col gap-1">
-              <Typography variant="h6" color="blue-gray">
+              <Typography
+                className="font-bold text-sm md:text-base"
+                color="blue-gray"
+              >
                 Notification of Acceptance
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
@@ -55,7 +61,10 @@ export default function RegistrationTimeline() {
               <BellIcon className="h-5 w-5" />
             </TimelineIcon>
             <div className="flex flex-col gap-1">
-              <Typography variant="h6" color="blue-gray">
+              <Typography
+                className="font-bold text-sm md:text-base"
+                color="blue-gray"
+              >
                 Last Date for camera ready paper
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
@@ -70,7 +79,10 @@ export default function RegistrationTimeline() {
               <BellIcon className="h-5 w-5" />
             </TimelineIcon>
             <div className="flex flex-col gap-1">
-              <Typography variant="h6" color="blue-gray">
+              <Typography
+                className="font-bold text-sm md:text-base"
+                color="blue-gray"
+              >
                 Conference Dates
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
