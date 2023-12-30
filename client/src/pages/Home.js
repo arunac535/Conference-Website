@@ -8,6 +8,7 @@ import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import SponsorsLogo from "../components/SponsorsLogo";
+import TechnicalTracks from "../pages/TechnicalTracks";
 
 const conferenceDate = "2024-03-15T23:59:59";
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Main />
         <Tracks />
         <ActivitiesTimeline />
+
         <Counter conferenceDate={conferenceDate} />
       </section>
 
