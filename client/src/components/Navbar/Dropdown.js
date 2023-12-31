@@ -8,7 +8,6 @@ const MenuItems = [
     path: "/tracks",
     cName: "dropdown-link",
   },
-
   {
     title: "Papers Submission",
     path: "/paperssubmission",
@@ -17,24 +16,34 @@ const MenuItems = [
 ];
 
 function Dropdown() {
-  
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+
+  const handleClick = () => {
+    if (window.innerWidth <= 768) {
+      // For mobile view
+      setClick(!click);
+    }
+  };
+
+  const handleHover = () => {
+    if (window.innerWidth > 768) {
+      // For desktop view
+      setClick(!click);
+    }
+  };
 
   return (
     <>
       <ul
         onClick={handleClick}
-        className={click ? "display-none" : "dropdown-menu"}
+        onMouseEnter={handleHover}
+        onMouseLeave={handleHover}
+        className={click ? "dropdown-menu mobile-view" : "dropdown-menu"}
       >
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link
-                className={item.cName}
-                to={item.path}
-                
-              >
+              <Link className={item.cName} to={item.path}>
                 {item.title}
               </Link>
             </li>
