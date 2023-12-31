@@ -60,7 +60,7 @@ const logos = [
 export default function SponsorsLogo() {
   return (
     <div className="container my-10">
-      <Heading text="Society Sponsors" />
+      <Heading text="Sponsors" />
 
       <div className="flex justify-center items-center my-10">
         <div className="grid grid-cols-2 md:grid-cols-5 my-10 mx-auto gap-10">

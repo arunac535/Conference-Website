@@ -43,6 +43,35 @@ function Accomodation() {
               >
                 2. Hotel Sai Suraj, Surathkal (NITK members 10% discounts)
               </ListItem>
+
+              <ListItem
+                className="font-extrabold text-md hover:text-blue-600"
+                onClick={() =>
+                  handleClick("https://hotelsadanand.co.in/available-rooms/")
+                }
+              >
+                3. Hotel Sadanand
+              </ListItem>
+
+              <ListItem
+                className="font-extrabold text-md hover:text-blue-600"
+                onClick={() =>
+                  handleClick("https://redrockresidency.com/index.php/tarif")
+                }
+              >
+                4. The Red Rock
+              </ListItem>
+
+              <ListItem
+                className="font-extrabold text-md hover:text-blue-600"
+                onClick={() =>
+                  handleClick(
+                    "https://www.oyorooms.com/35504/?utm_source=awin&utm_medium=affiliate&sv1=affiliate&sv_campaign_id=922583&awc=32579_1704002275_05f23bd2cb25d563747d38a1f6bddb5a"
+                  )
+                }
+              >
+                5. Garuda Comforts
+              </ListItem>
             </List>
           </Card>
         </div>
