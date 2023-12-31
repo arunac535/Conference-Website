@@ -22,7 +22,7 @@ export default function Home() {
       <section className="w-full flex flex-col items-center justify-center bg-gray-200">
         <SponsorsLogo />
         <Main />
-        <Tracks />
+        {/* <Tracks /> */}
         <ActivitiesTimeline />
 
         <Counter conferenceDate={conferenceDate} />
