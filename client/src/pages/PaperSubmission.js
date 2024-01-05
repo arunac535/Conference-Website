@@ -48,8 +48,8 @@ function PaperSubmission() {
 
           <div className="text-lg text-gray-700 py-2 mt-10">
             At least one of the authors of an accepted paper needs to register
-            for the conference and to present the paper(s), through an Online
-            Mode presentation.
+            for the conference and to present the paper(s), through an Online or
+            Offline Mode presentation.
           </div>
           <div className="text-lg text-gray-700 py-2">
             All manuscripts should be prepared in the following Springer's Book

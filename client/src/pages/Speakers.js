@@ -12,9 +12,9 @@ function Speakers() {
         <Navbar />
       </header>
 
-      <section className="bg-gray-200 grid h-screen grid-rows-[1fr_auto]">
+      <section className="grid  grid-rows-[1fr_auto]">
         <SpeakerData />
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </>
   );

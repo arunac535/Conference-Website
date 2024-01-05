@@ -1,486 +1,267 @@
 import React from "react";
 import Heading from "./Heading";
 
+const NationalAdvisoryCommitee = [
+  {
+    ind: 1,
+    name: "Prof. Nagamani C",
+    afiliation: "NIT Trichy",
+  },
+  {
+    ind: 2,
+    name: "prof. Ashok",
+    afiliation: "NIT CALICUT",
+  },
+  {
+    ind: 3,
+    name: "Prof. R N Patel",
+    afiliation: "NIT RAIPUR",
+  },
+  {
+    ind: 4,
+    name: "PROF. A BANSAL",
+    afiliation: "IIT ROORKEE",
+  },
+  {
+    ind: 5,
+    name: "PROF. THANGA CHELLAIAH",
+    afiliation: "IIT ROORKEE",
+  },
+  {
+    ind: 6,
+    name: "Prof. RAHUL DEV",
+    afiliation: "NIT Trichy",
+  },
+  {
+    name: "Prof. Nagamani C",
+    afiliation: "MNIT ALLAHABAD",
+  },
+  {
+    ind: 7,
+    name: "PROF. A K SAO",
+    afiliation: "IIT BHILAI",
+  },
+  {
+    ind: 8,
+    name: "PROF. S PATEL ",
+    afiliation: "IIT INDORE",
+  },
+  {
+    ind: 9,
+    name: "Prof. G R Sinha",
+    afiliation: "Provost (Vice Chancellor) @ GSFC University",
+  },
+  {
+    ind: 10,
+    name: "Prof. Pradeep R. Nair",
+    afiliation: "IIT Bombay",
+  },
+  {
+    ind: 11,
+    name: "Prof. VINOD KUMAR",
+    afiliation: "-",
+  },
+  {
+    ind: 12,
+    name: "Venkateswarlu P",
+    afiliation: "Lead Engineer at Hitachi ABB Power Grids",
+  },
+  {
+    ind: 13,
+    name: "Srinivasa S",
+    afiliation: "Team Leader E R & D Turbo Energy Limited",
+  },
+  {
+    ind: 14,
+    name: "Anuj Raizada",
+    afiliation: "BHEL",
+  },
+  {
+    ind: 15,
+    name: "Prof. Lakshman Mahto",
+    afiliation: "IIIT Dharwad",
+  },
+  {
+    ind: 16,
+    name: "Prof. Thirumurugan Chandrasekaran",
+    afiliation: "VIT",
+  },
+  {
+    ind: 17,
+    name: "Prof. Ajay Soni",
+    afiliation: "IIT Mandi",
+  },
+  {
+    ind: 18,
+    name: "Prof .Subit Kumar Jain",
+    afiliation: "NIT Hamirpur",
+  },
+  {
+    ind: 19,
+    name: "Prof. Suryanarayana Doolla",
+    afiliation: "NIT Hamirpur",
+  },
+  {
+    name: "Prof. Subit Kumar Jain",
+    afiliation: "IIT Bombay",
+  },
+  {
+    ind: 20,
+    name: "prof. B.G.Fernandez",
+    afiliation: "IIT Bombay",
+  },
+  {
+    ind: 21,
+    name: "Prof. Abdul Beige",
+    afiliation: "Khalifa University",
+  },
+  {
+    ind: 22,
+    name: "Prof. Lakshmi Prasad Natarajan",
+    afiliation: "IITH",
+  },
+  {
+    ind: 23,
+    name: "Prof. Mahesh Kumar",
+    afiliation: "IITM",
+  },
+  {
+    ind: 24,
+    name: "Prof .G.N. Pillai",
+    afiliation: "IITR",
+  },
+  {
+    ind: 25,
+    name: "Prof .Vishal Kumar",
+    afiliation: "IITR",
+  },
+];
+
+const InternationalAdvisoryCommitee = [
+  {
+    ind: 1,
+    name: "Dr. SHASHI BUSHAN SRIVASTAV",
+    afiliation: "MICHIGAN",
+  },
+  {
+    ind: 2,
+    name: "dr. A SHARMA",
+    afiliation: "NASA, usa",
+  },
+  {
+    ind: 3,
+    name: "dr. PAVAN kumar",
+    afiliation: "IMEC, Belgium",
+  },
+  {
+    ind: 4,
+    name: "dr. Vijay Chauhan",
+    afiliation: "Chief Executive OfficerChief Executive Officer, GEOTROPY",
+  },
+  {
+    ind: 5,
+    name: "Prof. ASHOK BHAT",
+    afiliation: "Professor, Canada",
+  },
+  {
+    ind: 6,
+    name: "prof. Jan Kleissl",
+    afiliation: "University of California, San Diego USA",
+  },
+  {
+    ind: 7,
+    name: "dr. Madhav Singh",
+    afiliation: "Electrochemist, UK",
+  },
+  {
+    ind: 8,
+    name: "dr. Pradeep Chawda ",
+    afiliation: "Apple, usa",
+  },
+  {
+    ind: 9,
+    name: "dr. Annette Hammer ",
+    afiliation: "DLR, Germany",
+  },
+  {
+    ind: 10,
+    name: "dr. Joshi Bollam",
+    afiliation: "Chubb, USA",
+  },
+  {
+    ind: 11,
+    name: "dr. Vijay Teegela",
+    afiliation: "EAI Architect at C&S Wholesale Grocers, USA",
+  },
+  {
+    ind: 12,
+    name: "dr. MANISH SHARMA",
+    afiliation: "Senior Optical Engineer, Canada",
+  },
+  {
+    ind: 13,
+    name: "dr. Jalim Singh",
+    afiliation: "OHSU Portland, USA",
+  },
+  {
+    ind: 14,
+    name: "Dr. Saurabh Singh",
+    afiliation: "IST, Austria",
+  },
+  {
+    ind: 15,
+    name: "dr. Aditya Chauhan",
+    afiliation: "ASM, Belgium",
+  },
+  {
+    ind: 16,
+    name: "dr. Vishrut Shah",
+    afiliation: "Nous, Canada",
+  },
+  {
+    ind: 17,
+    name: "Akshay Kumar Swain",
+    afiliation: "-",
+  },
+];
+
 export default function CommiteeData() {
   return (
     <>
-      <div className="py-10 mb-10 text-gray-800 text-center">
-        <Heading text="Organizing Committee" />
-        <h2 className="text-4xl my-10 py-10 text-center font-extrabold">
-          National Advisory Committee
-        </h2>
-        <div className="py-2">
-          <div className="relative overflow-x-auto w-11/12 mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Nagamani C
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Trichy</p>
-                </div>
-              </div>
+      <div className="w-full grow py-10 px-10">
+        <Heading text="Advisory Committee" />
 
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Ashok
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Calicut</p>
-                </div>
-              </div>
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. RN Patel
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Raipur</p>
-                </div>
-              </div>
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. A Bansal
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Roorkee</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Thanga Chellaiah
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Roorkee</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Rahul Dev
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">MNIT, Allahabad</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. A K Sao
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Bhilai</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. S Patel
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Indore</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. G R Sinha
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Vice Chancellor, GSFC University
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Pradeep R. Nair
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Bombay</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Vinod Kumar
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Affiliation required
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Venkateswarlu P
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Lead Engineer at Hitachi ABB Power Grids
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Srinivasa S
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Team Leader E R&D Turbo Energy Limited
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Anuj Raizada
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">BHEL</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Lakshman Mahto
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIIT Dharwad</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Thirumurugan Chandrasekaran
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">VIT</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Ajay Soni
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Mandi</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Subit Kumar Jain
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Hamirpur</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Himmat Singh Kushwaha
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Jaipur</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Anshul Sharma
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NIT Hamirpur</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Hari Vansh Rai Mittal
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Palakkad</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Ramesh Bansal
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    University of Sharjah
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Suryanarayana Doolla
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Bombay</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. B.G. Fernandez
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Bombay</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Abdul Beige
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Khalifa University
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Lakshmi Prasad Natarajan
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Hyderabad</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Mahesh Kumar
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Madras</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. G.N. Pillai
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Roorkee</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Prof. Vishal Kumar
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IIT Roorkee</p>
-                </div>
-              </div>
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+          {NationalAdvisoryCommitee.map((member) => (
+            <div
+              className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
+              key={member.ind}
+            >
+              <p className="text-base uppercase font-bold text-gray-800">
+                {member.name}
+              </p>
+              <p className="text-xs pt-2 font-semibold text-gray-600">
+                {member.afiliation}
+              </p>
             </div>
-          </div>
+          ))}
         </div>
 
-        <div className="pt-10 my-10 text-gray-800 text-center">
-          <h2 className="text-4xl text-white-600 font-extrabold text-center">
-            International Advisory Committee
-          </h2>
-        </div>
-
-        <div id="InternationalAdvisoryCommittee">
-          <div className="relative overflow-x-auto w-11/12 mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-              {/* <!-- Person 1 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Shashi Bhushan Srivastav
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">Michigan</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 2 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. A Sharma
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">NASA, USA</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 3 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Pavan Kumar
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IMEC, Belgium</p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Vijay Chauhan
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    CEO, Geotropy, Iceland
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Ashok Bhat
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Professor, Canada
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 5 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Jan Kleissl
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Professor, University of California, San Diego, USA
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 6 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Madhav Singh
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Electrochemist, UK
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 7 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Pradeep Chawda
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">Apple, USA</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 8 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Annette Hammer
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">DLR, Germany</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 9 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Joshi Bollam
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">Chubb, USA</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 10 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Vijay Teegela
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    EAI Architect at C&S Wholesale Grocers, USA
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 11 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Manish Sharma
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Senior Optical Engineer, Canada
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 12 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Jalim Singh
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    OHSU Portland, USA
-                  </p>
-                </div>
-              </div>
-
-              {/* <!-- Person 13 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Dr. Saurabh Singh
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">IST Austria</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 14 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Aditya Chauhan
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">ASM, Belgium</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 15 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Vishrut Shah
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">Nous, Canada</p>
-                </div>
-              </div>
-
-              {/* <!-- Person 16 --> */}
-              <div className="bg-white p-4 rounded shadow-xl">
-                <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                  Akshay Kumar Swain
-                </div>
-                <div className="text-gray-700">
-                  <p className="mb-2 text-lg font-helvetica">
-                    Affiliation required
-                  </p>
-                </div>
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+          {InternationalAdvisoryCommitee.map((member) => (
+            <div
+              className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
+              key={member.ind}
+            >
+              <p className="text-base uppercase font-bold text-gray-800">
+                {member.name}
+              </p>
+              <p className="text-xs pt-2 uppercase font-semibold text-gray-600">
+                {member.afiliation}
+              </p>
             </div>
-          </div>
-        </div>
+          ))}
+        </div> */}
       </div>
     </>
   );
