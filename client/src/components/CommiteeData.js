@@ -231,7 +231,7 @@ export default function CommiteeData() {
       <div className="w-full grow py-10 px-10">
         <Heading text="Advisory Committee" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
           {NationalAdvisoryCommitee.map((member) => (
             <div
               className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
@@ -261,7 +261,7 @@ export default function CommiteeData() {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
