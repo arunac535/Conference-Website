@@ -7,55 +7,37 @@ import Heading from "../components/Heading";
 import RegistrationTimeline from "../components/Timeline/RegistrationTimeline";
 import Footer from "../components/Footer";
 
-const TABLE_HEAD = [
-  "Authors/ Registration",
-  "Members (in INR)",
-  "Non- Members (in INR)",
-  "Foreign Authors (in USD)",
-];
-const data = [
-  {
-    category: "UG students",
-    members: "5000",
-    nonmembers: "5500",
-    foreignauthors: "249",
-  },
+const TABLE_HEAD=[
+  "Authors/Registration",
+  "UG students",
+  "M.tech / Ph.D students Faculties (Max. 04)",
+  "Others",
+  "Listeners"
+]
 
+const data=[
   {
-    category: "M.tech / Ph.D students Faculties (Max. 04)",
-    members: "5500",
-    nonmembers: "6000",
-    foreignauthors: "299",
+    category: "Memebers (in INR)",
+    UG: "5000",
+    MTech: "5500",
+    Others: "6000",
+    Listeners:"2000"
   },
-
   {
-    category: "Others",
-    members: "6000",
-    nonmembers: "6500",
-    foreignauthors: "329",
+    category: "Non-Memebers (in INR)",
+    UG: "5500",
+    MTech: "6000",
+    Others: "6500",
+    Listeners:"2500"
   },
-
   {
-    category: "Listeners",
-    members: "2000",
-    nonmembers: "2500",
-    foreignauthors: "119",
-  },
-
-  {
-    category: "Publication (Indexed Journals)",
-    members: "-",
-    nonmembers: "-",
-    foreignauthors: "-",
-  },
-
-  {
-    category: "Scopus Indexed Journal",
-    members: "8000",
-    nonmembers: "9000",
-    foreignauthors: "300",
-  },
-];
+    category: "Foreign Authors (in USD)",
+    UG: "249",
+    MTech: "299",
+    Others: "329",
+    Listeners:"119"
+  },  
+]
 
 function Registration() {
   return (
@@ -93,13 +75,13 @@ function Registration() {
               </thead>
               <tbody>
                 {data.map(
-                  ({ category, members, nonmembers, foreignauthors }) => (
+                  ({ category,UG,MTech,Others,Listeners,SIJ}) => (
                     <tr key={category} className="even:bg-blue-gray-50/50">
                       <td className="p-2 sm:p-4">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-bold"
+                          className="font-bold text-center" 
                         >
                           {category}
                         </Typography>
@@ -108,29 +90,39 @@ function Registration() {
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-normal"
+                          className="font-normal text-center"
                         >
-                          {members}
+                          {UG}
                         </Typography>
                       </td>
                       <td className="p-2 sm:p-4">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-normal"
+                          className="font-normal text-center"
                         >
-                          {nonmembers}
+                          {MTech}
                         </Typography>
                       </td>
                       <td className="p-2 sm:p-4">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-normal"
+                          className="font-normal text-center"
                         >
-                          {foreignauthors}
+                          {Others}
                         </Typography>
                       </td>
+                      <td className="p-2 sm:p-4">
+                        <Typography
+                          variant="small"
+                          color="blue-gray"
+                          className="font-normal text-center"
+                        >
+                          {Listeners}
+                        </Typography>
+                      </td>
+
                     </tr>
                   )
                 )}
