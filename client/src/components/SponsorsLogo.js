@@ -63,17 +63,17 @@ export default function SponsorsLogo() {
       <Heading text="Sponsors" />
 
       <div className="flex justify-center items-center my-10">
-        <div className="grid grid-cols-2 md:grid-cols-5 my-10 mx-auto gap-10">
+        <div className="grid grid-cols-2 lg:grid-cols-5 my-10 mx-auto gap-10">
           {logos.map((logo, index) => (
             <div
-              className="w-[8rem] h-[8rem] md:w-[10rem] md:h-[10rem]"
+              className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem]"
               key={index}
             >
               <Link to={logo.link}>
                 <img
                   src={logo.src}
                   alt="LOGO"
-                  className="w-[8rem] h-[8rem] md:w-[10rem] md:h-[10rem]"
+                  className="w-[8rem] h-[8rem] lg:w-[10rem] lg:h-[10rem]"
                 />
               </Link>
             </div>
