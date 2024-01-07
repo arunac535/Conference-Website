@@ -26,9 +26,15 @@ export default function Navbar() {
     }
   };
 
-  // const handleDropDownClick = () => {
-  //   setDropdown(!dropdown);
+  const handleDropDownClick = (e) => {
+    e.stopPropagation();
+    setDropdown(!dropdown);
+  };
+
+  // const closeDropdown = () => {
+  //   setDropdown(false);
   // };
+
   return (
     <>
       <nav className="bg-gray-800 p-4">
@@ -63,14 +69,12 @@ export default function Navbar() {
           </li>
           <li
             className="block py-2 px-4 text-white text-lg font-bold font-serif hover:bg-gray-700 rounded-lg cursor-pointer"
-            // onClick={handleDropDownClick}
+            onClick={handleDropDownClick}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
             For Authors
-            <FaChevronDown
-              className="inline w-3 h-4 mt-1 ml-2 transition-transform"
-            />
+            <FaChevronDown className="inline w-3 h-4 mt-1 ml-2 transition-transform" />
             {dropdown && <Dropdown />}
           </li>
           <li>

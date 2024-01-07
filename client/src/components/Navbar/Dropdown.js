@@ -15,7 +15,7 @@ const MenuItems = [
   },
 ];
 
-function Dropdown() {
+function Dropdown({ closeDropdown }) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {

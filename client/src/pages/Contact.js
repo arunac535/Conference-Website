@@ -12,44 +12,47 @@ function Contact() {
         <Logo />
         <Navbar />
       </header>
-      <main>
-        <div className="flex-grow pt-10 pb-20 bg-gray-200">
-          <Heading text="Contact Us" />
-          <div className="w-3/4 mx-auto py-4 mt-10 rounded bg-gray-100">
-            <div className="p-8 rounded">
-              <div className="my-5 text-center">
-                
-                <h2 className="mb-10 text-4xl font-bold text-gray-800">
-                  General Chairs
-                </h2>
-                <div className="flex justify-center">
-                  <div className="mr-20 text-center">
-                    <p className="font-bold text-xl mb-2 tracking-normal">
-                      Yashwant Kashyap
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="font-bold text-xl mb-2 tracking-normal">A. Karthikeyan</p>
-                  </div>
-                </div>
+
+      <main className="bg-gray-200 pt-10">
+        <Heading text="Contact Us" />
+
+        <div className="w-[80%] sm:w-[75%] md:w-[60%] mx-auto py-4 my-10 rounded-2xl bg-gray-100 shadow-2xl">
+          <div className="p-8 rounded">
+            <div className="my-5 text-center">
+              <h2 className="mb-10 text-4xl font-bold text-gray-800">
+                General Chairs
+              </h2>
+
+              <div className="flex items-center justify-center">
+                <p className="font-bold text-lg mb-2 mx-4 tracking-wider px-4">
+                  Yashwant Kashyap
+                </p>
+
+                <p className="font-bold mx-4 text-lg mb-2 tracking-wider px-4">
+                  A. Karthikeyan
+                </p>
               </div>
-              <div className="mr-6 text-center">
-                <p className="font-bold text-xl mb-2">NITK, India</p>
-              </div>
-              <div className="text-center">
-                <Link
-                  to=""
-                  className="text-blue-600 hover:underline font-bold text-lg"
-                >
-                  EMAIL
-                </Link>
-              </div>
+            </div>
+            <div className="text-center">
+              <p className="font-bold text-xl mb-2">NITK, India</p>
+            </div>
+            <div className="text-center">
+              <Link
+                to=""
+                className="text-blue-600 hover:underline font-bold text-lg"
+              >
+                EMAIL
+              </Link>
             </div>
           </div>
         </div>
-      </main>
 
-      <Footer />
+        <div className="h-[8rem]"></div>
+
+        <footer className="mt-10">
+          <Footer />
+        </footer>
+      </main>
     </>
   );
 }
