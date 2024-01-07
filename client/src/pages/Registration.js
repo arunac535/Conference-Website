@@ -20,14 +20,14 @@ const data=[
     category: "Memebers (in INR)",
     UG: "5000",
     MTech: "5500",
-    Others: "6000",
+    Others: "6500",
     Listeners:"2000"
   },
   {
     category: "Non-Memebers (in INR)",
     UG: "5500",
     MTech: "6000",
-    Others: "6500",
+    Others: "7000",
     Listeners:"2500"
   },
   {
@@ -35,7 +35,7 @@ const data=[
     UG: "249",
     MTech: "299",
     Others: "329",
-    Listeners:"119"
+    Listeners:"199"
   },  
 ]
 
