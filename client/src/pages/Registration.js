@@ -17,7 +17,7 @@ const TABLE_HEAD = [
 const data = [
   {
     category: "Memebers (in INR)",
-    UG: "5000",
+    UG: "3000",
     MTech: "5500",
     Others: "6500",
     Listeners:"2000"
