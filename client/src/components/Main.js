@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 export default function Main() {
   return (
-    <div className="container flex flex-col items-center justify-center">
+    <div className="container flex flex-col items-center justify-center mt-10">
       <Heading text="Conference Overview" />
       <p className="my-10 text-md md:text-xl px-2 mx-10">
         The International Conference on Advancements in Smart, Sustainable
