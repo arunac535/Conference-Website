@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Typography } from "@material-tailwind/react";
-import {useState} from 'react'
 
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
@@ -13,17 +12,6 @@ const TABLE_HEAD = [
   "Offline (INR/USD)",
   "Online (INR/USD)",
 ];
-
-const data1=[
-  {
-    category: "UG students",
-    members: "",
-    nonmembers: "5500",
-    foreignauthors: "249",
-  }
-
-  
-]
 
 const data = [
   {
@@ -45,14 +33,10 @@ const data = [
     category: "Listeners",
     offline: "2000/12",
     online: "2500/149",
-  }
-
+  },
 ];
 
-
-
 function Registration() {
-  const [authors,setAuthors] = useState(false)
   return (
     <>
       <header>
@@ -60,39 +44,35 @@ function Registration() {
         <Navbar />
       </header>
 
-      <main className="w-full pt-10 pb-20 bg-gray-200 flex flex-col items-center justify-center">
+      <main className="w-full pt-10 bg-gray-200 flex flex-col items-center justify-center">
         <Heading text="Registration" />
 
         <RegistrationTimeline />
 
-        <div className="mx-5 mt-20">
+        <div className="mx-5 mt-20 mb-10 pb-5">
           <Card className="shadow-xl font-normal">
             <table className="text-left rounded-lg border table-auto">
               <thead>
-              <tr>
-              <th
-                      className="text-xl sm:text-md font-bold bg-blue-gray-100 "
+                <tr>
+                  <th className="text-xl sm:text-md font-bold bg-blue-gray-100 ">
+                    <Typography
+                      variant="small"
+                      color="blue-gray"
+                      className="text-xl font-extrabold leading-none opacity-100 "
+                    ></Typography>
+                  </th>
+                  <th
+                    className="text-xl sm:text-md font-bold bg-blue-gray-100 md:text-center"
+                    colSpan={2}
+                  >
+                    <Typography
+                      variant="small"
+                      color="blue-gray"
+                      className="text-sm font-extrabold leading-none opacity-100 p-4"
                     >
-                      <Typography
-                        variant="small"
-                        color="blue-gray"
-                        className="text-xl font-extrabold leading-none opacity-100 "
-                      >
-                      </Typography>
-                    </th>
-                    <th
-                      className="text-xl sm:text-md font-bold bg-blue-gray-100 md:text-center"
-                      colSpan={2}
-                    >
-                      <Typography
-                        variant="small"
-                        color="blue-gray"
-                        className="text-sm font-extrabold leading-none opacity-100 p-4"
-                      >
-                        Indian/Foreign
-                      </Typography>
-                    </th>
-
+                      Indian/Foreign
+                    </Typography>
+                  </th>
                 </tr>
                 <tr>
                   {TABLE_HEAD.map((head) => (
@@ -112,49 +92,43 @@ function Registration() {
                 </tr>
               </thead>
               <tbody>
-                {data.map(
-                  ({ category, offline, online }) => (
-                    <tr key={category} className="even:bg-blue-gray-50/50">
-                      <td className="p-2 sm:p-4 px-8">
-                        <Typography
-                          variant="small"
-                          color="blue-gray"
-                          className="font-bold px-6"
-                        >
-                          {category}
-                        </Typography>
-                      </td>
-                      <td className="p-2 sm:p-4 px-8">
-                        <Typography
-                          variant="small"
-                          color="blue-gray"
-                          className="font-bold px-8"
-                        >
-                          {offline}
-                        </Typography>
-                      </td>
-                      <td className="p-2 sm:p-4 ">
-                        <Typography
-                          variant="small"
-                          color="blue-gray"
-                          className="font-bold px-8"
-                        >
-                          {online}
-                        </Typography>
-                      </td>
-
-
-                    </tr>
-                  )
-                )}
+                {data.map(({ category, offline, online }) => (
+                  <tr key={category} className="even:bg-blue-gray-50/50">
+                    <td className="p-2 sm:p-4 px-8">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-bold px-6"
+                      >
+                        {category}
+                      </Typography>
+                    </td>
+                    <td className="p-2 sm:p-4 px-8">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-bold px-8"
+                      >
+                        {offline}
+                      </Typography>
+                    </td>
+                    <td className="p-2 sm:p-4 ">
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-bold px-8"
+                      >
+                        {online}
+                      </Typography>
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </Card>
         </div>
-      </main>
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </>
   );
 }
