@@ -11,10 +11,11 @@ function Committee() {
         <Logo />
         <Navbar />
       </header>
-      <main className="">
+      <main className="h-screen">
         <CommiteeData />
-        {/* <Footer /> */}
       </main>
+
+      <Footer />
     </>
   );
 }
