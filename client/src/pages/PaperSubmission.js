@@ -40,7 +40,7 @@ function PaperSubmission() {
             </p>
 
             <div className="font-bold my-2 py-2 text-blue-400 hover:text-blue-900 hover:underline">
-              <Link to="https://cmt3.research.microsoft.com/PEIS2024">
+              <Link to="https://cmt3.research.microsoft.com/ASSETS2024">
                 Click Here
               </Link>
             </div>
