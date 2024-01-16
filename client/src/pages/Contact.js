@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "@react-email/components";
 
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
