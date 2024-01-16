@@ -12,7 +12,7 @@ import Heading from "../Heading";
 
 export default function ActivitiesTimeline() {
   return (
-    <div className="mt-40 mx-2">
+    <div className="mt-20 mx-2">
       <Heading text="Timeline" />
       <div className="mt-10 pt-10 lg:w-[50rem] w-[24rem]">
         <Timeline>

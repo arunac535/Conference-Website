@@ -251,6 +251,16 @@ const AdvisoryCommitee = [
     name: "Pradeep Chawda",
     afiliation: "Apple, Usa",
   },
+  {
+    ind: 6,
+    name: "Shri Joshi Bollam",
+    afiliation: "chubb, USA",
+  },
+  {
+    ind: 7,
+    name: "Dr. Madhav Singh",
+    afiliation: "Ascend Elements Michigan, USA",
+  },
 ];
 
 export default function CommiteeData() {
