@@ -49,7 +49,7 @@ function Registration() {
         <Navbar />
       </header>
 
-      <main className="w-full pt-10 pb-20 bg-gray-200 flex flex-col items-center justify-center">
+      <main className="w-full pt-10 bg-gray-200 flex flex-col items-center justify-center">
         <Heading text="Registration" />
 
         <RegistrationTimeline />
@@ -115,10 +115,8 @@ function Registration() {
             </tbody>
           </table>
         </Card>
-      </main>
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </>
   );
 }

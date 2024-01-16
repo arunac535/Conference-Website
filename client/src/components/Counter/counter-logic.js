@@ -30,7 +30,7 @@ const Counter = ({ conferenceDate }) => {
   }
 
   return (
-    <div className="my-40 h-50 flex flex-col items-center justify-center">
+    <div className="my-20 flex flex-col items-center justify-center">
       <Heading text="Time to Conference" />
       <div className="flex justify-center space-x-4">
         <span className="text-lg font-semibold">{timeRemaining.days} Days</span>
