@@ -17,8 +17,11 @@ function Accomodation() {
         <Logo />
         <Navbar />
       </header>
-      <section className="p-10 bg-gray-200">
-        <Heading text="Accomodation Details" />
+
+      <main className="bg-gray-200">
+        <div className="p-10">
+          <Heading text="Accomodation Details" />
+        </div>
         <div className="mt-20 p-10">
           <span className="text-2xl font-extrabold text-gray-700">
             Details about hotels to stay
@@ -75,10 +78,8 @@ function Accomodation() {
             </List>
           </Card>
         </div>
-      </section>
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </>
   );
 }

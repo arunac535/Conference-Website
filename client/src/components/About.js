@@ -6,7 +6,7 @@ import Heading from "./Heading";
 
 export default function About() {
   return (
-    <div className="flex-grow bg-gray-200 pt-10 pb-20">
+    <div className="flex-grow pt-10 pb-20">
       <div className="my-5 mx-auto w-11/12">
         <Heading text="About Us" />
 
