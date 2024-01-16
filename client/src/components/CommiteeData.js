@@ -225,14 +225,52 @@ const InternationalAdvisoryCommitee = [
   },
 ];
 
+const AdvisoryCommitee = [
+  {
+    ind: 1,
+    name: "Prof. RN Patel",
+    afiliation: "NIT Raipur",
+  },
+  {
+    ind: 2,
+    name: "prof. A Bansal",
+    afiliation: "IIT Roorkee",
+  },
+  {
+    ind: 3,
+    name: "Prof. AK Sao",
+    afiliation: "Iit Bhilai",
+  },
+  {
+    ind: 4,
+    name: "PROF. A  Soni",
+    afiliation: "IIT mandi",
+  },
+  {
+    ind: 5,
+    name: "Pradeep Chawda",
+    afiliation: "Apple, Usa",
+  },
+  {
+    ind: 6,
+    name: "Shri Joshi Bollam",
+    afiliation: "chubb, USA",
+  },
+  {
+    ind: 7,
+    name: "Dr. Madhav Singh",
+    afiliation: "Ascend Elements Michigan, USA",
+  },
+];
+
 export default function CommiteeData() {
   return (
     <>
       <div className="w-full grow py-10 px-10">
         <Heading text="Advisory Committee" />
 
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
-          {NationalAdvisoryCommitee.map((member) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
+          {AdvisoryCommitee.map((member) => (
             <div
               className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
               key={member.ind}
@@ -240,14 +278,14 @@ export default function CommiteeData() {
               <p className="text-base uppercase font-bold text-gray-800">
                 {member.name}
               </p>
-              <p className="text-xs pt-2 font-semibold text-gray-600">
+              <p className="text-xs pt-2 font-semibold text-gray-600 uppercase">
                 {member.afiliation}
               </p>
             </div>
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
           {InternationalAdvisoryCommitee.map((member) => (
             <div
               className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"

@@ -1,9 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import Heading from "../components/Heading";
+
+const Mailto = ({ email, subject = "", body = "", children }) => {
+  let params = subject || body ? "?" : "";
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? "&" : ""}body=${encodeURIComponent(body)}`;
+
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
 
 function Contact() {
   return (
@@ -37,12 +45,11 @@ function Contact() {
               <p className="font-bold text-xl mb-2">NITK, India</p>
             </div>
             <div className="text-center">
-              <Link
-                to=""
-                className="text-blue-600 hover:underline font-bold text-lg"
-              >
-                EMAIL
-              </Link>
+              <Mailto email="assets.nitk@gmail.com">
+                <p className="text-blue-600 hover:underline font-bold text-lg mt-5">
+                  assets.nitk@gmail.com
+                </p>
+              </Mailto>
             </div>
           </div>
         </div>

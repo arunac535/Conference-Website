@@ -20,7 +20,7 @@ export default function Home() {
         <Slider />
       </header>
       <section className="w-full flex flex-col items-center justify-center bg-gray-200">
-        <SponsorsLogo />
+        {/* <SponsorsLogo /> */}
         <Main />
         {/* <Tracks /> */}
         <ActivitiesTimeline />

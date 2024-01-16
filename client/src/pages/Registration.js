@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Typography } from "@material-tailwind/react";
+import {useState} from 'react'
 
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
@@ -7,39 +8,51 @@ import Heading from "../components/Heading";
 import RegistrationTimeline from "../components/Timeline/RegistrationTimeline";
 import Footer from "../components/Footer";
 
-const TABLE_HEAD=[
+const TABLE_HEAD = [
   "Authors/Registration",
-  "UG students",
-  "M.tech / Ph.D students Faculties (Max. 04)",
-  "Others",
-  "Listeners"
+  "Offline (INR/USD)",
+  "Online (INR/USD)",
+];
+
+const data1=[
+  {
+    category: "UG students",
+    members: "",
+    nonmembers: "5500",
+    foreignauthors: "249",
+  }
+
+  
 ]
 
-const data=[
+const data = [
   {
-    category: "Memebers (in INR)",
-    UG: "3000",
-    MTech: "5500",
-    Others: "6500",
-    Listeners:"2000"
+    category: "UG students",
+    offline: "3000/199",
+    online: "5500/249",
   },
   {
-    category: "Non-Memebers (in INR)",
-    UG: "5500",
-    MTech: "6000",
-    Others: "7000",
-    Listeners:"2500"
+    category: "M.Tech/PhD/Faculties (max 4)",
+    offline: "5500/249",
+    online: "6000/299",
   },
   {
-    category: "Foreign Authors (in USD)",
-    UG: "249",
-    MTech: "299",
-    Others: "329",
-    Listeners:"199"
-  },  
-]
+    category: "Others",
+    offline: "6500/329",
+    online: "7000/349",
+  },
+  {
+    category: "Listeners",
+    offline: "2000/129",
+    online: "2500/149",
+  }
+
+];
+
+
 
 function Registration() {
+  const [authors,setAuthors] = useState(false)
   return (
     <>
       <header>
@@ -56,6 +69,31 @@ function Registration() {
           <Card className="shadow-xl">
             <table className="text-left rounded-lg border table-auto">
               <thead>
+              <tr>
+              <th
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 "
+                    >
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-extrabold leading-none opacity-100"
+                      >
+                      </Typography>
+                    </th>
+                    <th
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 md:text-center"
+                      colSpan={2}
+                    >
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-extrabold leading-none opacity-100 pt-2"
+                      >
+                        Indian/Foreign
+                      </Typography>
+                    </th>
+
+                </tr>
                 <tr>
                   {TABLE_HEAD.map((head) => (
                     <th
@@ -75,13 +113,13 @@ function Registration() {
               </thead>
               <tbody>
                 {data.map(
-                  ({ category,UG,MTech,Others,Listeners,SIJ}) => (
+                  ({ category, offline, online }) => (
                     <tr key={category} className="even:bg-blue-gray-50/50">
                       <td className="p-2 sm:p-4">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-bold text-center" 
+                          className="font-bold"
                         >
                           {category}
                         </Typography>
@@ -90,38 +128,21 @@ function Registration() {
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-normal text-center"
+                          className="font-bold"
                         >
-                          {UG}
+                          {offline}
                         </Typography>
                       </td>
                       <td className="p-2 sm:p-4">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-normal text-center"
+                          className="font-bold"
                         >
-                          {MTech}
+                          {online}
                         </Typography>
                       </td>
-                      <td className="p-2 sm:p-4">
-                        <Typography
-                          variant="small"
-                          color="blue-gray"
-                          className="font-normal text-center"
-                        >
-                          {Others}
-                        </Typography>
-                      </td>
-                      <td className="p-2 sm:p-4">
-                        <Typography
-                          variant="small"
-                          color="blue-gray"
-                          className="font-normal text-center"
-                        >
-                          {Listeners}
-                        </Typography>
-                      </td>
+
 
                     </tr>
                   )

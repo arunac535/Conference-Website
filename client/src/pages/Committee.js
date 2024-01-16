@@ -11,9 +11,9 @@ function Committee() {
         <Logo />
         <Navbar />
       </header>
-      <main className="">
+      <main className="flex flex-col min-h-screen">
         <CommiteeData />
-        {/* <Footer /> */}
+        <Footer />
       </main>
     </>
   );

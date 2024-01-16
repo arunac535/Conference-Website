@@ -12,7 +12,7 @@ function EventDetails() {
         <Navbar />
       </header>
 
-      <main className="bg-gray-200 w-full">
+      <main className="bg-gray-100 w-full">
         <div className="p-10 md:col-span-2">
           <Heading text="Key Conference Details" />
 
@@ -54,9 +54,10 @@ function EventDetails() {
               Publication in Springer Nature
             </p>
             <p className="mt-3 opacity-70 ">
-              Accepted papers will be published in the conference proceedings by
-              Springer Nature under the Scopus index, ensuring wide visibility
-              and accessibility to the global research community.
+              Accepted papers will be published possibly in the conference
+              proceedings by Springer Nature under the Scopus index, ensuring
+              wide visibility and accessibility to the global research
+              community.
             </p>
           </div>
 
