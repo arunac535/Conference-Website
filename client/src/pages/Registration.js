@@ -43,7 +43,7 @@ const data = [
   },
   {
     category: "Listeners",
-    offline: "2000/129",
+    offline: "2000/12",
     online: "2500/149",
   }
 
@@ -66,28 +66,28 @@ function Registration() {
         <RegistrationTimeline />
 
         <div className="mx-5 mt-20">
-          <Card className="shadow-xl">
+          <Card className="shadow-xl font-normal">
             <table className="text-left rounded-lg border table-auto">
               <thead>
               <tr>
               <th
-                      className="text-sm sm:text-md font-bold bg-blue-gray-100 "
+                      className="text-xl sm:text-md font-bold bg-blue-gray-100 "
                     >
                       <Typography
                         variant="small"
                         color="blue-gray"
-                        className="font-extrabold leading-none opacity-100"
+                        className="text-xl font-extrabold leading-none opacity-100 "
                       >
                       </Typography>
                     </th>
                     <th
-                      className="text-sm sm:text-md font-bold bg-blue-gray-100 md:text-center"
+                      className="text-xl sm:text-md font-bold bg-blue-gray-100 md:text-center"
                       colSpan={2}
                     >
                       <Typography
                         variant="small"
                         color="blue-gray"
-                        className="font-extrabold leading-none opacity-100 pt-2"
+                        className="text-sm font-extrabold leading-none opacity-100 p-4"
                       >
                         Indian/Foreign
                       </Typography>
@@ -103,7 +103,7 @@ function Registration() {
                       <Typography
                         variant="small"
                         color="blue-gray"
-                        className="font-extrabold leading-none opacity-100"
+                        className="font-extrabold leading-none opacity-100 px-8"
                       >
                         {head}
                       </Typography>
@@ -115,29 +115,29 @@ function Registration() {
                 {data.map(
                   ({ category, offline, online }) => (
                     <tr key={category} className="even:bg-blue-gray-50/50">
-                      <td className="p-2 sm:p-4">
+                      <td className="p-2 sm:p-4 px-8">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-bold"
+                          className="font-bold px-6"
                         >
                           {category}
                         </Typography>
                       </td>
-                      <td className="p-2 sm:p-4">
+                      <td className="p-2 sm:p-4 px-8">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-bold"
+                          className="font-bold px-8"
                         >
                           {offline}
                         </Typography>
                       </td>
-                      <td className="p-2 sm:p-4">
+                      <td className="p-2 sm:p-4 ">
                         <Typography
                           variant="small"
                           color="blue-gray"
-                          className="font-bold"
+                          className="font-bold px-8"
                         >
                           {online}
                         </Typography>
