@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Typography } from "@material-tailwind/react";
+import {useState} from 'react'
 
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
@@ -9,39 +10,49 @@ import Footer from "../components/Footer";
 
 const TABLE_HEAD = [
   "Authors/Registration",
-  "Offline(in INR)",
-  "Online(in INR)",
-  "Foreign Authors(in USD)",
+  "Offline (INR/USD)",
+  "Online (INR/USD)",
 ];
+
+const data1=[
+  {
+    category: "UG students",
+    members: "",
+    nonmembers: "5500",
+    foreignauthors: "249",
+  }
+
+  
+]
 
 const data = [
   {
-    category: "UG Students",
-    offline: "3000",
-    online: "5500",
-    foreign: "249",
+    category: "UG students",
+    offline: "3000/199",
+    online: "5500/249",
   },
   {
-    category: "M.Tech/PHD/Faculties(max 4)",
-    offline: "5500",
-    online: "6000",
-    foreign: "299",
+    category: "M.Tech/PhD/Faculties (max 4)",
+    offline: "5500/249",
+    online: "6000/299",
   },
   {
     category: "Others",
-    offline: "6500",
-    online: "7000",
-    foreign: "329",
+    offline: "6500/329",
+    online: "7000/349",
   },
   {
     category: "Listeners",
-    offline: "2000",
-    online: "2500",
-    foreign: "199",
-  },
+    offline: "2000/129",
+    online: "2500/149",
+  }
+
 ];
 
+
+
 function Registration() {
+  const [authors,setAuthors] = useState(false)
   return (
     <>
       <header>
@@ -49,74 +60,101 @@ function Registration() {
         <Navbar />
       </header>
 
-      <main className="w-full pt-10 bg-gray-200 flex flex-col items-center justify-center">
+      <main className="w-full pt-10 pb-20 bg-gray-200 flex flex-col items-center justify-center">
         <Heading text="Registration" />
 
         <RegistrationTimeline />
 
-        <Card className="shadow-xl overflow-x-auto mt-10 mb-20 w-[90%] sm:w-[75%] md:w-[60%]">
-          <table className="text-left rounded-lg border">
-            <thead>
+        <div className="mx-5 mt-20">
+          <Card className="shadow-xl">
+            <table className="text-left rounded-lg border table-auto">
+              <thead>
               <tr>
-                {TABLE_HEAD.map((head) => (
-                  <th key={head} className="bg-blue-gray-100 p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="font-extrabold leading-none opacity-100"
+              <th
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 "
                     >
-                      {head}
-                    </Typography>
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {data.map(({ category, offline, online, foreign }) => (
-                <tr key={category} className="even:bg-blue-gray-50/50">
-                  <td className="p-2">
-                    <Typography
-                      // variant="small"
-                      color="blue-gray"
-                      className="text-sm font-bold pl-5"
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-extrabold leading-none opacity-100"
+                      >
+                      </Typography>
+                    </th>
+                    <th
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 md:text-center"
+                      colSpan={2}
                     >
-                      {category}
-                    </Typography>
-                  </td>
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="pl-5"
-                    >
-                      {offline}
-                    </Typography>
-                  </td>
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="pl-5"
-                    >
-                      {online}
-                    </Typography>
-                  </td>
-                  <td className="p-4">
-                    <Typography
-                      variant="small"
-                      color="blue-gray"
-                      className="pl-5"
-                    >
-                      {foreign}
-                    </Typography>
-                  </td>
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-extrabold leading-none opacity-100 pt-2"
+                      >
+                        Indian/Foreign
+                      </Typography>
+                    </th>
+
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </Card>
-        <Footer />
+                <tr>
+                  {TABLE_HEAD.map((head) => (
+                    <th
+                      key={head}
+                      className="text-sm sm:text-md font-bold bg-blue-gray-100 p-4"
+                    >
+                      <Typography
+                        variant="small"
+                        color="blue-gray"
+                        className="font-extrabold leading-none opacity-100"
+                      >
+                        {head}
+                      </Typography>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {data.map(
+                  ({ category, offline, online }) => (
+                    <tr key={category} className="even:bg-blue-gray-50/50">
+                      <td className="p-2 sm:p-4">
+                        <Typography
+                          variant="small"
+                          color="blue-gray"
+                          className="font-bold"
+                        >
+                          {category}
+                        </Typography>
+                      </td>
+                      <td className="p-2 sm:p-4">
+                        <Typography
+                          variant="small"
+                          color="blue-gray"
+                          className="font-bold"
+                        >
+                          {offline}
+                        </Typography>
+                      </td>
+                      <td className="p-2 sm:p-4">
+                        <Typography
+                          variant="small"
+                          color="blue-gray"
+                          className="font-bold"
+                        >
+                          {online}
+                        </Typography>
+                      </td>
+
+
+                    </tr>
+                  )
+                )}
+              </tbody>
+            </table>
+          </Card>
+        </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
