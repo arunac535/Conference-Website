@@ -78,23 +78,35 @@ function Registration() {
                     <Typography
                       // variant="small"
                       color="blue-gray"
-                      className="text-sm font-bold"
+                      className="text-sm font-bold pl-5"
                     >
                       {category}
                     </Typography>
                   </td>
                   <td className="p-4">
-                    <Typography variant="small" color="blue-gray">
+                    <Typography
+                      variant="small"
+                      color="blue-gray"
+                      className="pl-5"
+                    >
                       {offline}
                     </Typography>
                   </td>
                   <td className="p-4">
-                    <Typography variant="small" color="blue-gray">
+                    <Typography
+                      variant="small"
+                      color="blue-gray"
+                      className="pl-5"
+                    >
                       {online}
                     </Typography>
                   </td>
                   <td className="p-4">
-                    <Typography variant="small" color="blue-gray">
+                    <Typography
+                      variant="small"
+                      color="blue-gray"
+                      className="pl-5"
+                    >
                       {foreign}
                     </Typography>
                   </td>

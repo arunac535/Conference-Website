@@ -248,7 +248,7 @@ const AdvisoryCommitee = [
   },
   {
     ind: 5,
-    name: "P Chawda",
+    name: "Pradeep Chawda",
     afiliation: "Apple, Usa",
   },
 ];
@@ -268,7 +268,7 @@ export default function CommiteeData() {
               <p className="text-base uppercase font-bold text-gray-800">
                 {member.name}
               </p>
-              <p className="text-xs pt-2 font-semibold text-gray-600">
+              <p className="text-xs pt-2 font-semibold text-gray-600 uppercase">
                 {member.afiliation}
               </p>
             </div>
