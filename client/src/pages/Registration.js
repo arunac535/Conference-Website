@@ -49,7 +49,7 @@ function Registration() {
 
         <RegistrationTimeline />
 
-        <Card className="shadow-xl overflow-x-auto mt-10 mb-20 w-[100%] sm:w-[75%] md:w-[60%]">
+        <Card className="shadow-xl overflow-x-auto mt-10 mb-20 w-[90%] sm:w-[75%] md:w-[60%]">
           <table className="text-left rounded-lg border">
             <thead>
               <tr>
