@@ -27,14 +27,14 @@ export default function ActivitiesTimeline() {
                   className="font-bold text-sm md:text-base"
                   color="blue-gray"
                 >
-                  Abstract Submission Deadline
+                  Full Paper Submission Deadline
                 </Typography>
                 <Typography
                   variant="small"
                   color="gray"
                   className="font-normal"
                 >
-                  January 15, 2024
+                  January 30, 2024
                 </Typography>
               </div>
             </TimelineHeader>
@@ -50,7 +50,7 @@ export default function ActivitiesTimeline() {
                   className="font-bold text-sm md:text-base"
                   color="blue-gray"
                 >
-                  Full Paper Submission Deadline
+                  Notification of Acceptance
                 </Typography>
                 <Typography
                   variant="small"
@@ -73,14 +73,14 @@ export default function ActivitiesTimeline() {
                   className="font-bold text-sm md:text-base"
                   color="blue-gray"
                 >
-                  Notification of Acceptance
+                  Last date for camera ready paper
                 </Typography>
                 <Typography
                   variant="small"
                   color="gray"
                   className="font-normal"
                 >
-                  March 1, 2024
+                  February 25, 2024
                 </Typography>
               </div>
             </TimelineHeader>
