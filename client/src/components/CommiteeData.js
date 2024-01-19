@@ -228,13 +228,13 @@ const InternationalAdvisoryCommitee = [
 const AdvisoryCommitee = [
   {
     ind: 1,
-    name: "Prof. RN Patel",
-    afiliation: "NIT Raipur",
+    name: "prof. A Bansal",
+    afiliation: "IIT Roorkee",
   },
   {
     ind: 2,
-    name: "prof. A Bansal",
-    afiliation: "IIT Roorkee",
+    name: "PROF. A Soni",
+    afiliation: "IIT mandi",
   },
   {
     ind: 3,
@@ -243,24 +243,46 @@ const AdvisoryCommitee = [
   },
   {
     ind: 4,
-    name: "PROF. A  Soni",
-    afiliation: "IIT mandi",
+    name: "Prof. Gururaj S Punekar",
+    afiliation: "NIT Surathkal",
   },
   {
     ind: 5,
-    name: "Pradeep Chawda",
-    afiliation: "Apple, Usa",
-  },
-  {
-    ind: 6,
     name: "Shri Joshi Bollam",
     afiliation: "chubb, USA",
   },
   {
-    ind: 7,
+    ind: 6,
     name: "Dr. Madhav Singh",
     afiliation: "Ascend Elements Michigan, USA",
   },
+  {
+    ind: 7,
+    name: "Prof. Panduranga Vittal K",
+    afiliation: "NIT Surathkal",
+  },
+  {
+    ind: 8,
+    name: "SHRI Pradeep Chawda",
+    afiliation: "Apple, Usa",
+  },
+  {
+    ind: 9,
+    name: "Prof. RN Patel",
+    afiliation: "NIT Raipur",
+  },
+  {
+    ind: 10,
+    name: "Prof. Shubhanga K N",
+    afiliation: "NIT Surathkal",
+  },
+  {
+    ind: 11,
+    name: "Prof. Udaykumar R Yaragatti",
+    afiliation: "NIT Surathkal",
+  },
+
+
 ];
 
 export default function CommiteeData() {

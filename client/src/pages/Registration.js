@@ -90,6 +90,7 @@ function Registration() {
                         className="text-sm font-extrabold leading-none opacity-100 p-4"
                       >
                         Indian/Foreign
+                        
                       </Typography>
                     </th>
 
