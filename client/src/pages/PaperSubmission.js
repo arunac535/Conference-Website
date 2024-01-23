@@ -17,8 +17,8 @@ function PaperSubmission() {
           <Heading text="Paper Submission" />
           <div className="my-5 text-xl text-indigo-500 py-5 font-bold text-center">
             The authors are invited to submit the Full papers of the
-            Research/Review Papers/Abstracts. The papers will be peer-reviewed
-            and only the accepted and registered papers will be considered for
+            Research/Review Papers. The papers will be peer-reviewed and only
+            the accepted and registered papers will be considered for
             presentation during the conference and publication in the
             proceedings.
           </div>
@@ -76,10 +76,10 @@ function PaperSubmission() {
             </div>
           </div>
         </div>
+        <footer>
+          <Footer />
+        </footer>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }

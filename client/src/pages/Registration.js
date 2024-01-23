@@ -17,7 +17,7 @@ const data = [
   {
     category: "UG students",
     offline: "3000/199",
-    online: "5500/249",
+    online: "3500/249",
   },
   {
     category: "M.Tech/PhD/Faculties (max 4)",
