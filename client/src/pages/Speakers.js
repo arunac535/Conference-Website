@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
-import SpeakerData from "../components/SpeakerData";
 import Footer from "../components/Footer";
+import SpeakerData from "../components/SpeakerData";
 
 function Speakers() {
   return (
@@ -11,11 +11,10 @@ function Speakers() {
         <Logo />
         <Navbar />
       </header>
-
-      <section className="grid  grid-rows-[1fr_auto]">
+      <main className="flex flex-col h-100vh">
         <SpeakerData />
-        {/* <Footer /> */}
-      </section>
+        <Footer />
+      </main>
     </>
   );
 }

@@ -1,31 +1,46 @@
 import React from "react";
-import Heading from "./Heading";
+import Heading from "../components/Heading";
+
+const speakers = [
+  {
+    ind: 1,
+    name: "Prof. G R SINHA",
+    afiliation: "Provost (Vice Chancellor), GSFC Vadodara, Gujarat, India",
+  },
+  {
+    ind: 2,
+    name: "Dr. Panagiotis Kosmopoulos",
+    afiliation: "National Observatory of Athens, Greece",
+  },
+  {
+    ind: 3,
+    name: "Prof. R N Patel",
+    afiliation: "NIT Raipur",
+  },
+];
 
 function SpeakerData() {
   return (
     <>
-      <div className="py-10">
-        <Heading text="Keynote Speakers" />
-        {/* <div className="relative overflow-x-auto w-11/12 mx-auto mt-10 p-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-8">
-            <div className="bg-white p-4 rounded shadow-md">
-              <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prof. R N Patel
+      <div className="w-full grow py-10 px-10">
+        <div className="my-10 py-10">
+          <Heading text="Keynote Speakers" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
+            {speakers.map((member) => (
+              <div
+                className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
+                key={member.ind}
+              >
+                <p className="text-base uppercase font-bold text-gray-800">
+                  {member.name}
+                </p>
+                <p className="text-xs pt-2 font-semibold text-gray-600 uppercase">
+                  {member.afiliation}
+                </p>
               </div>
-              <div className="text-gray-700">
-                <p className="mb-2 text-lg font-helvetica">NIT Raipur</p>
-              </div>
-            </div>
-            <div className="bg-white p-4 rounded shadow-md">
-              <div className="mb-4 font-bold text-gray-900 whitespace-nowrap text-2xl font-arial">
-                Prof. A Bansal
-              </div>
-              <div className="text-gray-700">
-                <p className="mb-2 text-lg font-helvetica">IIT Roorkee</p>
-              </div>
-            </div>
+            ))}
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );
