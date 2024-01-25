@@ -242,52 +242,67 @@ const AdvisoryCommitee = [
     afiliation: "Iit Bhilai",
   },
   {
-    ind: 4,
+    ind:4,
+    name:"Prof. G R SINHA",
+    afiliation:"Provost (Vice Chancellor), GSFC University Vadodara, Gujarat, India"
+  },
+  {
+    ind: 5,
     name: "Prof. Gururaj S Punekar",
     afiliation: "NIT Surathkal",
   },
   {
-    ind: 5,
-    name: "Prof. K. Siva Kumar",
-    afiliation: "IIT Hyderabad",
+    ind:6,
+    name:"Prof Jan Kleissl",
+    afiliation:"UCSD, USA"
   },
   {
-    ind: 6,
+    ind: 7,
     name: "Shri Joshi Bollam",
     afiliation: "chubb, USA",
   },
   {
-    ind: 7,
+    ind: 8,
+    name: "Prof. K. Siva Kumar",
+    afiliation: "IIT Hyderabad",
+  },
+  {
+    ind: 9,
     name: "Dr. Madhav Singh",
     afiliation: "Ascend Elements Michigan, USA",
   },
   {
-    ind: 8,
+    ind: 10,
     name: "Prof. Panduranga Vittal K",
     afiliation: "NIT Surathkal",
   },
   {
-    ind: 9,
+    ind: 11,
     name: "SHRI Pradeep Chawda",
     afiliation: "Apple, Usa",
   },
   {
-    ind: 10,
+    ind: 12,
     name: "Prof. RN Patel",
     afiliation: "NIT Raipur",
   },
   {
-    ind: 11,
+    ind: 13,
     name: "Prof. Shubhanga K N",
     afiliation: "NIT Surathkal",
   },
   {
-    ind: 12,
+    ind: 14,
+    name: "Shri Saurabh Singh",
+    afiliation: "Ph.D (ISTA) Klosterneuburg, Austria",
+  },
+  {
+    ind: 15,
     name: "Prof. Thanga Raj Chelliah",
     afiliation: "IIT Roorkee",
   },
   {
-    ind: 13,
+    ind: 16,
     name: "Prof. Udaykumar R Yaragatti",
     afiliation: "NIT Surathkal",
   },
