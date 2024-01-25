@@ -105,7 +105,7 @@ export default function CommiteeData() {
   return (
     <>
       <div className="w-full grow py-10 px-10">
-        <div className="my-10 py-10">
+        <div className="my-10 py-5">
           <Heading text="Chief Patron" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
             {Patron.map((member) => (
@@ -124,7 +124,7 @@ export default function CommiteeData() {
           </div>
         </div>
 
-        <div className="my-10 py-10">
+        <div className="my-10 py-5">
           <Heading text="Convenor" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
@@ -144,7 +144,7 @@ export default function CommiteeData() {
           </div>
         </div>
 
-        <div className="my-10 py-10">
+        <div className="my-10 py-5">
           <Heading text="Advisory Committee" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
