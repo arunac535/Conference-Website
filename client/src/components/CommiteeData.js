@@ -105,9 +105,13 @@ export default function CommiteeData() {
   return (
     <>
       <div className="w-full grow py-10 px-10">
-        <div className="my-10 py-5">
-          <Heading text="Chief Patron" />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
+        <Heading text="Organising Commitee" />
+
+        <div className="my-10 py-10">
+          <h1 className="my-5 text-left text-4xl font-extrabold tracking-normal text-gray-900">
+            Chief Patron
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-2 py-2">
             {Patron.map((member) => (
               <div
                 className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
@@ -124,10 +128,12 @@ export default function CommiteeData() {
           </div>
         </div>
 
-        <div className="my-10 py-5">
-          <Heading text="Convenor" />
+        <div className="my-10 py-10">
+          <h1 className="my-5 text-left text-4xl font-extrabold tracking-normal text-gray-900">
+            Convenor
+          </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-2 py-2">
             {Convenor.map((member) => (
               <div
                 className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
@@ -144,10 +150,11 @@ export default function CommiteeData() {
           </div>
         </div>
 
-        <div className="my-10 py-5">
-          <Heading text="Advisory Committee" />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
+        <div className="my-10 py-10">
+          <h1 className="my-5 text-left text-4xl font-extrabold tracking-normal text-gray-900">
+            Advisory Committee
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-2 py-2">
             {AdvisoryCommitee.map((member) => (
               <div
                 className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
