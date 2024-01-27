@@ -4,18 +4,29 @@ import Heading from "../components/Heading";
 const speakers = [
   {
     ind: 1,
-    name: "Prof. G R SINHA",
-    afiliation: "Provost (Vice Chancellor), GSFC Vadodara, Gujarat, India",
+    name: "Dr. A Sharma",
+    afiliation: "National Institute of Standards and Technology (NIST), USA",
   },
   {
     ind: 2,
-    name: "Dr. Panagiotis Kosmopoulos",
-    afiliation: "National Observatory of Athens, Greece",
+    name: "Prof. G R SINHA",
+    afiliation: "Vice Chancellor GSFC Vadodara, Gujarat, India",
   },
   {
     ind: 3,
+    name: "Dr. P Kosmopoulos",
+    afiliation: "National Observatory of Athens, Greece",
+  },
+  {
+    ind: 4,
     name: "Prof. R N Patel",
     afiliation: "NIT Raipur",
+  },
+
+  {
+    ind: 5,
+    name: "Dr. S B Srivastava",
+    afiliation: "Henry Ford Health, Bionics and Vision Lab, Michigan, USA",
   },
 ];
 
