@@ -27,10 +27,10 @@ export default function RegistrationTimeline() {
                 className="font-bold text-sm md:text-base"
                 color="blue-gray"
               >
-                Last Date for paper submission
+                Full Paper Submission Deadline
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
-                January 30, 2024
+                February 15, 2024
               </Typography>
             </div>
           </TimelineHeader>
@@ -49,7 +49,7 @@ export default function RegistrationTimeline() {
                 Notification of Acceptance
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
-                February 15, 2024
+                February 25, 2024
               </Typography>
             </div>
           </TimelineHeader>
