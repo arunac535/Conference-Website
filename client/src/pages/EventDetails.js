@@ -12,7 +12,7 @@ function EventDetails() {
         <Navbar />
       </header>
 
-      <main className="bg-gray-100 w-full h-screen flex flex-col">
+      <main className="bg-gray-100 w-full flex flex-col">
         <div>
           <div className="p-10 md:col-span-2">
             <Heading text="Key Conference Details" />

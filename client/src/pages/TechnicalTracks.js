@@ -10,7 +10,7 @@ function TechnicalTracks() {
       <Logo />
       <Navbar />
 
-      <div className="h-screen">
+      <div className="bg-gray-100">
         <div className="w-full text-center items-center flex flex-col justify-center">
           <section className="py-10 px-10">
             <Heading text="Tracks" />
