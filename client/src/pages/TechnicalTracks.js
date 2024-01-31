@@ -111,8 +111,6 @@ function TechnicalTracks() {
                   </li>
                   <li>Regulatory challenges and solutions .</li>
                 </ul>
-
-                <p></p>
               </li>
               <li className="bg-white p-8 rounded-lg shadow-xl  text-gray-800">
                 <h3 className="text-2xl font-bold mb-4 text-indigo-600">
@@ -129,7 +127,6 @@ function TechnicalTracks() {
                     energy technologies.
                   </li>
                 </ul>
-                <p></p>
               </li>
               <li className="bg-white p-8 rounded-lg shadow-xl  text-gray-800">
                 <h3 className="text-2xl font-bold mb-4 text-indigo-600">
@@ -144,7 +141,20 @@ function TechnicalTracks() {
                   <li>Climate change mitigation through sustainable energy.</li>
                   <li>Circular economy in the energy sector.</li>
                 </ul>
-                <p></p>
+              </li>
+              <li className="bg-white p-8 rounded-lg shadow-xl  text-gray-800">
+                <h3 className="text-2xl font-bold mb-4 text-indigo-600">
+                  Track 9
+                </h3>
+                <p className="text-xl font-bold mb-4 ">
+                Incorporating Indian Heritage in Smart Energy Solutions
+                </p>
+                <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 text-justify">
+                  <li>Traditional Energy Practices: Explore how ancient Indian practices, such as the use of windmills, water wheels, and biomass, can be integrated into modern smart energy systems.</li>
+                  <li>Cultural Integration in Sustainable Development: Discuss ways to integrate cultural aspects of Indian heritage into the design and implementation of smart, sustainable energy projects.</li>
+                  <li>Climate change mitigation through sustainable energy.</li>
+                  <li>Any other relevant topics based on Indian Knowledge Systems relating to energy, sources, sustainability.</li>
+                </ul>
               </li>
             </ul>
           </section>
