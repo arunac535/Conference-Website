@@ -83,6 +83,11 @@ const AdvisoryCommitee = [
     name: "Prof. Udaykumar R Yaragatti",
     afiliation: "NIT Surathkal",
   },
+  {
+    ind : 17,
+    name : "Shri. Chandrasekar V",
+    afiliation : "CDAC Thiruvananthapuram"
+  },
 ];
 
 const Patron = [
@@ -166,7 +171,7 @@ export default function CommiteeData() {
 
         <div className="my-10 py-10">
           <h1 className="my-5 text-left text-4xl font-extrabold tracking-normal text-gray-900">
-            Organising Committee
+            Organising Secretaries
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-2 py-2">
