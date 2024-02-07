@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Heading from "../components/Heading";
 import RegistrationTimeline from "../components/Timeline/RegistrationTimeline";
 import Footer from "../components/Footer";
+import Payment from "../components/Payment";
 
 const TABLE_HEAD = [
   "Authors/Registration",
@@ -125,6 +126,8 @@ function Registration() {
             </tbody>
           </table>
         </Card>
+        <Payment />
+
         <Footer />
       </main>
     </>
