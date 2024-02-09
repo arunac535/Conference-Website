@@ -1,12 +1,12 @@
 import React from "react";
 import { Card, Typography } from "@material-tailwind/react";
-
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import Heading from "../components/Heading";
 import RegistrationTimeline from "../components/Timeline/RegistrationTimeline";
 import Footer from "../components/Footer";
 import Payment from "../components/Payment";
+import RazorpayPaymentButton from "../components/PaymentGateway";
 
 const TABLE_HEAD = [
   "Authors/Registration",
@@ -125,6 +125,7 @@ function Registration() {
               ))}
             </tbody>
           </table>
+
         </Card>
         <Payment />
 

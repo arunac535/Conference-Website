@@ -1,3 +1,4 @@
+import RazorpayPaymentButton from "../components/PaymentGateway";
 import React from 'react'
 
 const Payment = () => {
@@ -46,6 +47,7 @@ const Payment = () => {
             <button type="submit" class="ml-4 px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600">Upload Receipt</button>
         </div>
     </form>
+    <RazorpayPaymentButton/>
 </div>
 
 
