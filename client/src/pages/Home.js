@@ -5,8 +5,7 @@ import Footer from "../components/Footer";
 import Counter from "../components/Counter/counter-logic";
 import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
-import Navbar from "../components/Navbar/Navbar";
-
+import Navbar from "../components/Navbar/Navbar"
 const conferenceDate = "2024-03-15T23:59:59";
 
 export default function Home() {

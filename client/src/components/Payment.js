@@ -1,38 +1,47 @@
-import RazorpayPaymentButton from "../components/PaymentGateway";
-import React from 'react'
+import React from "react";
+
+const Mailto = ({ email, subject = "", body = "", children }) => {
+  let params = subject || body ? "?" : "";
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? "&" : ""}body=${encodeURIComponent(body)}`;
+
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
 
 const Payment = () => {
   return (
     <div>
-         <div class="max-w-lg mx-auto bg-white p-8 border rounded-md shadow-md">
-    <h2 class="text-3xl font-bold mb-6 text-center">Online Payment Details</h2>
-    
-    <div class="grid grid-cols-2 gap-4">
-        <div>
+      <div class="w-[83%] mx-auto bg-white p-8 border rounded-md shadow-md">
+        <h2 class="text-3xl font-bold mb-6 text-center">
+          Online Payment Details
+        </h2>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div>
             <p class="text-lg font-semibold">Beneficiary Name</p>
             <p>NITK SURATHKAL</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <p class="text-lg font-semibold">Account No</p>
             <p>37772503911</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <p class="text-lg font-semibold">Bank Name</p>
             <p>State Bank of India</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <p class="text-lg font-semibold">IFSC Code</p>
             <p>SBIN0002273 (For transfers from within India)</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <p class="text-lg font-semibold">MICR</p>
             <p>575002013</p>
-        </div>
-        <div>
+          </div>
+          <div>
             <p class="text-lg font-semibold">Address</p>
             <p>N.I.T.K CAMPUS, SRINIVASNAGAR POST MANGALURU-575025</p>
+          </div>
         </div>
-    </div>
 
     <p class="mt-6"><span class="text-lg font-semibold">Note:</span> During transactions, kindly enter "ASSETS 2024" in the purpose field.</p>
     <p class="mt-4"><span class="text-lg font-semibold">Note:</span> Registration fee is non-refundable. Fee once paid shall not be refunded under any circumstances.</p>
@@ -47,12 +56,11 @@ const Payment = () => {
             <button type="submit" class="ml-4 px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600">Upload Receipt</button>
         </div>
     </form>
-    <RazorpayPaymentButton/>
 </div>
 
 
     </div>
-  )
-}
+  );
+};
 
-export default Payment
+export default Payment;
