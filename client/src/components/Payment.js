@@ -1,5 +1,13 @@
 import React from "react";
 
+const Mailto = ({ email, subject = "", body = "", children }) => {
+  let params = subject || body ? "?" : "";
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? "&" : ""}body=${encodeURIComponent(body)}`;
+
+  return <a href={`mailto:${email}${params}`}>{children}</a>;
+};
+
 const Payment = () => {
   return (
     <div>
@@ -38,15 +46,21 @@ const Payment = () => {
         <h3 class="mt-6 text-lg font-semibold">NOTE:</h3>
         <ul>
           <li>
-            During transactions, kindly enter "ASSETS 2024" in the purpose field.
+            During transactions, kindly enter "ASSETS 2024" in the purpose
+            field.
           </li>
           <li>
             Registration fee is non-refundable. Fee once paid shall not be
             refunded under any circumstances.
           </li>
           <li>
+            <br />
             Kindly send the payment receipt to{" "}
-            <strong>assets.nitk@gmail.com</strong>.
+            <Mailto className="" email="assets.nitk@gmail.com">
+              <p className="text-blue-600 hover:underline font-bold text-lg mt-5">
+                assets.nitk@gmail.com
+              </p>
+            </Mailto>
           </li>
         </ul>
       </div>
