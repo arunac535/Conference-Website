@@ -34,7 +34,7 @@ export default function ActivitiesTimeline() {
                   color="gray"
                   className="font-normal"
                 >
-                  February 15, 2024
+                  February 25, 2024
                 </Typography>
               </div>
             </TimelineHeader>
@@ -57,7 +57,7 @@ export default function ActivitiesTimeline() {
                   color="gray"
                   className="font-normal"
                 >
-                  February 25, 2024
+                  February 28, 2024
                 </Typography>
               </div>
             </TimelineHeader>
