@@ -80,7 +80,7 @@ export default function ActivitiesTimeline() {
                   color="gray"
                   className="font-normal"
                 >
-                  February 25, 2024
+                  March 8, 2024
                 </Typography>
               </div>
             </TimelineHeader>

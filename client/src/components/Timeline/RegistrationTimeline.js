@@ -68,7 +68,7 @@ export default function RegistrationTimeline() {
                 Last Date for camera ready paper
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
-                February 25, 2024
+                March 8, 2024
               </Typography>
             </div>
           </TimelineHeader>
