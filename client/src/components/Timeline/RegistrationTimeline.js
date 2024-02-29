@@ -30,7 +30,7 @@ export default function RegistrationTimeline() {
                 Full Paper Submission Deadline
               </Typography>
               <Typography variant="small" color="gray" className="font-normal">
-              February 28, 2024
+              March 6th, 2024
               </Typography>
             </div>
           </TimelineHeader>
