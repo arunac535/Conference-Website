@@ -5,18 +5,6 @@ import { Link } from "react-router-dom";
 export default function Main() {
   return (
     <div className="container flex flex-col items-center justify-center mt-10">
-      <Heading text="Chief Guest" />
-      <div className="flex">
-        <img alt="" style={{ width:'8cm', }} src="https://faculty.dese.iisc.ac.in/kgopakumar/wp-content/uploads/sites/7/2017/03/kgopa3.jpg" />
-          <a href="https://faculty.dese.iisc.ac.in/kgopakumar/">
-          <h1 style={{ fontSize:'0.7cm', padding:'0.5cm' }}>
-          Professor<br/>
-          Dr. K. Gopakumar<br/>
-          Department of Electronic Systems Engineering ( Formerly CEDT)<br/>
-          Indian Institute of Science (IISc)<br/>
-          Bangalore 560012</h1>
-          </a>
-      </div>
       <Heading text="Conference Overview" />
       <p className="my-10 text-md md:text-xl px-2 mx-10">
         The International Conference on Advancements in Smart, Sustainable

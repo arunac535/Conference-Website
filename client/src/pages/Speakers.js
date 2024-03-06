@@ -3,6 +3,7 @@ import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer";
 import SpeakerData from "../components/SpeakerData";
+import KeynoteSpeaker from "../components/KeynoteSpeaker";
 
 function Speakers() {
   return (
@@ -12,6 +13,7 @@ function Speakers() {
         <Navbar />
       </header>
       <main className="flex flex-col h-100vh">
+        <KeynoteSpeaker />
         <SpeakerData />
         <Footer />
       </main>
