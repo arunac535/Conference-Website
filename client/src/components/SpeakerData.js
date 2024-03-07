@@ -4,15 +4,16 @@ import head from "../assets/RajeevCv.pdf";
 import kopo from "../assets/Kosmopoulos.jpg";
 import ankit from "../assets/AnkitSharma.jpg";
 import SpeakerCard from "./SpeakerCard";
+import gopa from "../assets/kgopa3.jpg"
 
 const guestSpeaker = [
   {
     ind: 1,
     name: "Dr. K. Gopakumar",
     afiliation: "Indian Institute of Science (IISc), Bangalore, India",
-    path: "https://faculty.dese.iisc.ac.in/kgopakumar/wp-content/uploads/sites/7/2017/03/kgopa3.jpg",
-  },
-];
+    path:gopa
+  }
+]
 
 const expertTalk = [
   {
