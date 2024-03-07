@@ -42,6 +42,7 @@ function SpeakerData(props) {
     <>
       <div className="w-full grow py-10 px-10">
         <Heading text="Keynote Speakers" />
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
           {speakers1.map((member) => (
             
