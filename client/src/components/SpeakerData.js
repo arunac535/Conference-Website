@@ -5,6 +5,7 @@ import kopo from "../assets/Kosmopoulos.jpg"
 import ankit from "../assets/AnkitSharma.jpg"
 import SpeakerCard from "./SpeakerCard";
 import gopa from "../assets/kgopa3.jpg"
+
 const speakers1 = [
   {
     ind: 1,
