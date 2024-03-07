@@ -2,6 +2,8 @@ import React from "react";
 import Heading from "./Heading";
 import { Link } from "react-router-dom";
 
+
+
 export default function Main() {
   return (
     <div className="container flex flex-col items-center justify-center mt-10">
