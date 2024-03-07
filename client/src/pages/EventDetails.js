@@ -18,9 +18,10 @@ function EventDetails() {
         <div>
           <div className="p-10 md:col-span-2">
             <Heading text="Key Conference Details" />
-            <div className="flex w-max gap-4">
+
+
+            <div className="flex w-max gap-4 mt-10 pt-5">
             <a href={pdf}><Button variant="gradient">PROGRAMME SCHEDULE</Button></a>
-            
           </div>
             <div className="mt-20">
               <p className="text-3xl space-x-3 font-semibold text-gray-800">

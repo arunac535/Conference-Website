@@ -13,7 +13,6 @@ function Speakers() {
         <Navbar />
       </header>
       <main className="flex flex-col h-100vh">
-        <KeynoteSpeaker />
         <SpeakerData />
         <Footer />
       </main>
