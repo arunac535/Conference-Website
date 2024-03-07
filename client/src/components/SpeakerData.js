@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "../components/Heading";
-import head from "../assets/RajeevCv.pdf"
-import kopo from "../assets/Kosmopoulos.jpg"
-import ankit from "../assets/AnkitSharma.jpg"
+import head from "../assets/RajeevCv.pdf";
+import kopo from "../assets/Kosmopoulos.jpg";
+import ankit from "../assets/AnkitSharma.jpg";
 import SpeakerCard from "./SpeakerCard";
 import gopa from "../assets/kgopa3.jpg"
 
@@ -15,35 +15,27 @@ const speakers1 = [
   }
 ]
 
-const speakers2 = [
+const expertTalk = [
   {
     ind: 1,
     name: "Dr. P Kosmopoulos",
     afiliation: "National Observatory of Athens, Greece",
-    path:kopo
+    path: kopo,
   },
   {
     ind: 2,
     name: "Dr. S B Srivastava",
     afiliation: "Henry Ford Health, Bionics and Vision Lab, Michigan, USA",
-    path:""
+    path: "",
   },
   {
     ind: 3,
     name: "RAJEEV SAPRA",
-    afiliation: "DEPUTY GENERAL MANAGER (Voluntary Retired), DELHI TRANSCO LTD.",
-    path:ankit
-  }
+    afiliation:
+      "DEPUTY GENERAL MANAGER (Voluntary Retired), DELHI TRANSCO LTD.",
+    path: ankit,
+  },
 ];
-
-const InvitedSpeakers = [
-  {
-    ind: 1,
-    name: "RAJEEV SAPRA",
-    afiliation: "DEPUTY GENERAL MANAGER (Voluntary Retired), DELHI TRANSCO LTD.",
-    path:ankit
-  }
-]
 
 function SpeakerData(props) {
   return (
@@ -51,39 +43,33 @@ function SpeakerData(props) {
       <div className="w-full grow py-10 px-10">
         <Heading text="Guest Speaker" />
 
-        <div className="grid grid-cols-3 gap-8 content-center">
-          {speakers1.map((member) => (
-            
-            <div
-              className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
-              key={member.ind}
-            >
-              <img src ={member.path} height={180} width={205}/>
-              <p className="text-base uppercase font-bold text-gray-800">
-                {member.name}
-              </p>
-              <p className="text-xs pt-2 font-semibold text-gray-600 uppercase">
-                {member.afiliation}
-              </p>
-            </div>
+        <div className="flex justify-center items-center mt-4 mb-10 py-5">
+          {guestSpeaker.map((speaker) => (
+            <SpeakerCard
+              ind={speaker.ind}
+              name={speaker.name}
+              afiliation={speaker.afiliation}
+              path={speaker.path}
+            />
           ))}
         </div>
-        <Heading text="Expert Talk" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 py-10">
-          {speakers2.map((member) => (
-            <div
-              className="bg-gray-100 py-8 px-4 rounded-lg shadow-xl"
-              key={member.ind}
-            >
-              <img src ={member.path} height={180} width={205}/>
-              <p className="text-base uppercase font-bold text-gray-800">
-                {member.name}
-              </p>
-              <p className="text-xs pt-2 font-semibold text-gray-600 uppercase">
-                {member.afiliation}
-              </p>
-            </div>
-          ))}
+
+        <div className="h-20"></div>
+
+        <div className="mt-15 py-10">
+          <h1 className="mt-2 text-[2.05rem] text-center font-extrabold leading-none tracking-normal text-gray-900 md:text-4xl lg:text-5xl">
+            Expert Talk
+          </h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-5 py-2">
+            {expertTalk.map((speaker) => (
+              <SpeakerCard
+                ind={speaker.ind}
+                name={speaker.name}
+                afiliation={speaker.afiliation}
+                path={speaker.path}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>
@@ -91,4 +77,3 @@ function SpeakerData(props) {
 }
 
 export default SpeakerData;
-
