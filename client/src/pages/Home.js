@@ -6,6 +6,7 @@ import Counter from "../components/Counter/counter-logic";
 import Slider from "../components/carousel/Slider";
 import Logo from "../components/Logo";
 import Navbar from "../components/Navbar/Navbar";
+import Map from "../components/Map";
 
 const conferenceDate = "2024-03-15T23:59:59";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <main className="w-full flex flex-col items-center justify-center bg-gray-200">
         <Main />
         <ActivitiesTimeline />
+        
         <Counter conferenceDate={conferenceDate} />
         <Footer />
       </main>
