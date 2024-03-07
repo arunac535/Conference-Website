@@ -6,7 +6,7 @@ import ankit from "../assets/AnkitSharma.jpg";
 import SpeakerCard from "./SpeakerCard";
 import gopa from "../assets/kgopa3.jpg"
 
-const speakers1 = [
+const guestSpeaker = [
   {
     ind: 1,
     name: "Dr. K. Gopakumar",
