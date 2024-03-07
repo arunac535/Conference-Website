@@ -43,7 +43,7 @@ function SpeakerData() {
           {speakers.map((speaker) => (
             <SpeakerCard
               name={speaker.name}
-              affiliation={speaker.afiliation}
+              afiliation={speaker.afiliation}
               path={speaker.path}
             />
           ))}
