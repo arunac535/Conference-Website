@@ -22,7 +22,8 @@ export default function Home() {
       <main className="w-full flex flex-col items-center justify-center bg-gray-200">
         <Main />
         <ActivitiesTimeline />
-        
+        <Map />
+
         <Counter conferenceDate={conferenceDate} />
         <Footer />
       </main>
