@@ -40,7 +40,7 @@ const invitedSpeakers = [
   },
   {
     ind: 4,
-    name: "Dr. RAJEEV SAPRA",
+    name: "Mr. RAJEEV SAPRA",
     afiliation: "DEPUTY GENERAL MANAGER, DELHI TRANSCO LTD",
     path: rajeevSapra,
   },
